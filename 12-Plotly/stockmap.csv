@@ -1,0 +1,512 @@
+stockcode,stockname,industry,change%,MarketCap,display
+1,CKH HOLDINGS,Conglomerates,-1.2,158180655104,1<BR>CKH HOLDINGS<BR>-1.2%<BR><a target='_self' href='../quote/1'>quote</a>
+2,CLP HOLDINGS,Utilities,0.0,163082354688,2<BR>CLP HOLDINGS<BR>+0.0%<BR><a target='_self' href='../quote/2'>quote</a>
+3,HK & CHINA GAS,Utilities,-0.81,114571780096,3<BR>HK & CHINA GAS<BR>-0.81%<BR><a target='_self' href='../quote/3'>quote</a>
+4,WHARF HOLDINGS,Properties & Construction,1.42,65399037952,4<BR>WHARF HOLDINGS<BR>+1.42%<BR><a target='_self' href='../quote/4'>quote</a>
+5,HSBC HOLDINGS,Financials,0.33,1354347184128,5<BR>HSBC HOLDINGS<BR>+0.33%<BR><a target='_self' href='../quote/5'>quote</a>
+6,POWER ASSETS,Utilities,-0.65,113694720000,6<BR>POWER ASSETS<BR>-0.65%<BR><a target='_self' href='../quote/6'>quote</a>
+8,PCCW,Telecommunications,0.0,34447716352,8<BR>PCCW<BR>+0.0%<BR><a target='_self' href='../quote/8'>quote</a>
+11,HANG SENG BANK,Financials,-0.1,179286212608,11<BR>HANG SENG BANK<BR>-0.1%<BR><a target='_self' href='../quote/11'>quote</a>
+12,HENDERSON LAND,Properties & Construction,-1.05,114256805888,12<BR>HENDERSON LAND<BR>-1.05%<BR><a target='_self' href='../quote/12'>quote</a>
+13,HUTCHMED,Healthcare,0.45,20143009792,13<BR>HUTCHMED<BR>+0.45%<BR><a target='_self' href='../quote/13'>quote</a>
+14,HYSAN DEV,Properties & Construction,-1.66,12180337664,14<BR>HYSAN DEV<BR>-1.66%<BR><a target='_self' href='../quote/14'>quote</a>
+16,SHK PPT,Properties & Construction,-0.6,214451994624,16<BR>SHK PPT<BR>-0.6%<BR><a target='_self' href='../quote/16'>quote</a>
+17,NEW WORLD DEV,Properties & Construction,-3.62,12733996032,17<BR>NEW WORLD DEV<BR>-3.62%<BR><a target='_self' href='../quote/17'>quote</a>
+19,SWIRE PACIFIC A,Conglomerates,0.92,89978290176,19<BR>SWIRE PACIFIC A<BR>+0.92%<BR><a target='_self' href='../quote/19'>quote</a>
+20,SENSETIME-W,Information Technology,-0.65,56251248640,20<BR>SENSETIME-W<BR>-0.65%<BR><a target='_self' href='../quote/20'>quote</a>
+27,GALAXY ENT,Consumer Discretionary,-3.83,143715123200,27<BR>GALAXY ENT<BR>-3.83%<BR><a target='_self' href='../quote/27'>quote</a>
+66,MTR CORPORATION,Consumer Discretionary,-1.1,167076708352,66<BR>MTR CORPORATION<BR>-1.1%<BR><a target='_self' href='../quote/66'>quote</a>
+69,SHANGRI-LA ASIA,Consumer Discretionary,-0.56,18778056704,69<BR>SHANGRI-LA ASIA<BR>-0.56%<BR><a target='_self' href='../quote/69'>quote</a>
+81,CH OVS G OCEANS,Properties & Construction,-0.56,6264491008,81<BR>CH OVS G OCEANS<BR>-0.56%<BR><a target='_self' href='../quote/81'>quote</a>
+83,SINO LAND,Properties & Construction,-1.52,69954387968,83<BR>SINO LAND<BR>-1.52%<BR><a target='_self' href='../quote/83'>quote</a>
+87,SWIRE PACIFIC B,Conglomerates,-0.53,88684322816,87<BR>SWIRE PACIFIC B<BR>-0.53%<BR><a target='_self' href='../quote/87'>quote</a>
+95,LVGEM CHINA,Properties & Construction,-4.44,2407011072,95<BR>LVGEM CHINA<BR>-4.44%<BR><a target='_self' href='../quote/95'>quote</a>
+101,HANG LUNG PPT,Properties & Construction,-0.96,29706653696,101<BR>HANG LUNG PPT<BR>-0.96%<BR><a target='_self' href='../quote/101'>quote</a>
+119,POLY PROPERTY,Properties & Construction,-1.29,5846405120,119<BR>POLY PROPERTY<BR>-1.29%<BR><a target='_self' href='../quote/119'>quote</a>
+120,COSMOPOL INT'L,Properties & Construction,0.72,172307168,120<BR>COSMOPOL INT'L<BR>+0.72%<BR><a target='_self' href='../quote/120'>quote</a>
+123,YUEXIU PROPERTY,Properties & Construction,-2.15,20287965184,123<BR>YUEXIU PROPERTY<BR>-2.15%<BR><a target='_self' href='../quote/123'>quote</a>
+135,KUNLUN ENERGY,Utilities,-0.73,70917210112,135<BR>KUNLUN ENERGY<BR>-0.73%<BR><a target='_self' href='../quote/135'>quote</a>
+136,CHINA RUYI,Consumer Discretionary,-1.24,29885995008,136<BR>CHINA RUYI<BR>-1.24%<BR><a target='_self' href='../quote/136'>quote</a>
+142,FIRST PACIFIC,Consumer Staples,1.11,19318697984,142<BR>FIRST PACIFIC<BR>+1.11%<BR><a target='_self' href='../quote/142'>quote</a>
+144,CHINA MER PORT,Industrials,-0.3,56505217024,144<BR>CHINA MER PORT<BR>-0.3%<BR><a target='_self' href='../quote/144'>quote</a>
+148,KINGBOARD HLDG,Industrials,-1.38,20592400384,148<BR>KINGBOARD HLDG<BR>-1.38%<BR><a target='_self' href='../quote/148'>quote</a>
+151,WANT WANT CHINA,Consumer Staples,-0.22,53845389312,151<BR>WANT WANT CHINA<BR>-0.22%<BR><a target='_self' href='../quote/151'>quote</a>
+152,SHENZHEN INT'L,Industrials,-0.86,16746996736,152<BR>SHENZHEN INT'L<BR>-0.86%<BR><a target='_self' href='../quote/152'>quote</a>
+165,CHINA EB LTD,Financials,-0.56,9016087552,165<BR>CHINA EB LTD<BR>-0.56%<BR><a target='_self' href='../quote/165'>quote</a>
+168,TSINGTAO BREW,Consumer Staples,0.46,96457031680,168<BR>TSINGTAO BREW<BR>+0.46%<BR><a target='_self' href='../quote/168'>quote</a>
+175,GEELY AUTO,Consumer Discretionary,-3.48,145480105984,175<BR>GEELY AUTO<BR>-3.48%<BR><a target='_self' href='../quote/175'>quote</a>
+177,JIANGSU EXPRESS,Industrials,-0.35,71338033152,177<BR>JIANGSU EXPRESS<BR>-0.35%<BR><a target='_self' href='../quote/177'>quote</a>
+179,JOHNSON ELEC H,Consumer Discretionary,-0.91,10074033152,179<BR>JOHNSON ELEC H<BR>-0.91%<BR><a target='_self' href='../quote/179'>quote</a>
+189,DONGYUE GROUP,Materials,0.0,13827025920,189<BR>DONGYUE GROUP<BR>+0.0%<BR><a target='_self' href='../quote/189'>quote</a>
+200,MELCO INT'L DEV,Consumer Discretionary,-2.86,6674005504,200<BR>MELCO INT'L DEV<BR>-2.86%<BR><a target='_self' href='../quote/200'>quote</a>
+215,HUTCHTEL HK,Telecommunications,0.0,4433572352,215<BR>HUTCHTEL HK<BR>+0.0%<BR><a target='_self' href='../quote/215'>quote</a>
+220,U-PRESID CHINA,Consumer Staples,1.24,35159347200,220<BR>U-PRESID CHINA<BR>+1.24%<BR><a target='_self' href='../quote/220'>quote</a>
+241,ALI HEALTH,Healthcare,-2.05,53746610176,241<BR>ALI HEALTH<BR>-2.05%<BR><a target='_self' href='../quote/241'>quote</a>
+256,CITYCHAMP,Consumer Discretionary,-1.23,3481511936,256<BR>CITYCHAMP<BR>-1.23%<BR><a target='_self' href='../quote/256'>quote</a>
+257,EB ENVIRONMENT,Utilities,-1.02,23834763264,257<BR>EB ENVIRONMENT<BR>-1.02%<BR><a target='_self' href='../quote/257'>quote</a>
+267,CITIC,Conglomerates,-1.09,263558135808,267<BR>CITIC<BR>-1.09%<BR><a target='_self' href='../quote/267'>quote</a>
+268,KINGDEE INT'L,Information Technology,1.48,31949477888,268<BR>KINGDEE INT'L<BR>+1.48%<BR><a target='_self' href='../quote/268'>quote</a>
+270,GUANGDONG INV,Utilities,0.15,42626588672,270<BR>GUANGDONG INV<BR>+0.15%<BR><a target='_self' href='../quote/270'>quote</a>
+272,SHUI ON LAND,Properties & Construction,0.0,5366398464,272<BR>SHUI ON LAND<BR>+0.0%<BR><a target='_self' href='../quote/272'>quote</a>
+285,BYD ELECTRONIC,Information Technology,-1.73,95986311168,285<BR>BYD ELECTRONIC<BR>-1.73%<BR><a target='_self' href='../quote/285'>quote</a>
+288,WH GROUP,Consumer Staples,-0.34,76339683328,288<BR>WH GROUP<BR>-0.34%<BR><a target='_self' href='../quote/288'>quote</a>
+291,CHINA RES BEER,Consumer Staples,-0.2,81262198784,291<BR>CHINA RES BEER<BR>-0.2%<BR><a target='_self' href='../quote/291'>quote</a>
+293,CATHAY PAC AIR,Consumer Discretionary,-0.21,61355569152,293<BR>CATHAY PAC AIR<BR>-0.21%<BR><a target='_self' href='../quote/293'>quote</a>
+297,SINOFERT,Materials,1.77,8078128640,297<BR>SINOFERT<BR>+1.77%<BR><a target='_self' href='../quote/297'>quote</a>
+302,CMGE,Information Technology,-4.82,2366373888,302<BR>CMGE<BR>-4.82%<BR><a target='_self' href='../quote/302'>quote</a>
+303,VTECH HOLDINGS,Information Technology,0.19,13279455232,303<BR>VTECH HOLDINGS<BR>+0.19%<BR><a target='_self' href='../quote/303'>quote</a>
+308,CHINA TRAVEL HK,Consumer Discretionary,-1.98,5481263616,308<BR>CHINA TRAVEL HK<BR>-1.98%<BR><a target='_self' href='../quote/308'>quote</a>
+314,SIPAI HEALTH,Healthcare,1.1,4179546624,314<BR>SIPAI HEALTH<BR>+1.1%<BR><a target='_self' href='../quote/314'>quote</a>
+316,OOIL,Industrials,1.05,76603269120,316<BR>OOIL<BR>+1.05%<BR><a target='_self' href='../quote/316'>quote</a>
+322,TINGYI,Consumer Staples,-0.59,56907034624,322<BR>TINGYI<BR>-0.59%<BR><a target='_self' href='../quote/322'>quote</a>
+327,PAX GLOBAL,Information Technology,1.16,5605775872,327<BR>PAX GLOBAL<BR>+1.16%<BR><a target='_self' href='../quote/327'>quote</a>
+336,HUABAO INTL,Consumer Staples,-0.47,6782852608,336<BR>HUABAO INTL<BR>-0.47%<BR><a target='_self' href='../quote/336'>quote</a>
+338,SHANGHAI PECHEM,Materials,0.0,27949467648,338<BR>SHANGHAI PECHEM<BR>+0.0%<BR><a target='_self' href='../quote/338'>quote</a>
+341,CAFE DE CORAL H,Consumer Discretionary,0.26,4388835840,341<BR>CAFE DE CORAL H<BR>+0.26%<BR><a target='_self' href='../quote/341'>quote</a>
+345,VITASOY INT'L,Consumer Staples,-2.12,10888980480,345<BR>VITASOY INT'L<BR>-2.12%<BR><a target='_self' href='../quote/345'>quote</a>
+354,CHINASOFT INT'L,Information Technology,0.58,12837552128,354<BR>CHINASOFT INT'L<BR>+0.58%<BR><a target='_self' href='../quote/354'>quote</a>
+358,JIANGXI COPPER,Materials,0.64,64040275968,358<BR>JIANGXI COPPER<BR>+0.64%<BR><a target='_self' href='../quote/358'>quote</a>
+363,SHANGHAI IND H,Conglomerates,0.0,12916055040,363<BR>SHANGHAI IND H<BR>+0.0%<BR><a target='_self' href='../quote/363'>quote</a>
+371,BJ ENT WATER,Utilities,-1.95,25170530304,371<BR>BJ ENT WATER<BR>-1.95%<BR><a target='_self' href='../quote/371'>quote</a>
+384,CHINA GAS HOLD,Utilities,0.75,36702720000,384<BR>CHINA GAS HOLD<BR>+0.75%<BR><a target='_self' href='../quote/384'>quote</a>
+386,SINOPEC CORP,Energy,0.0,795515617280,386<BR>SINOPEC CORP<BR>+0.0%<BR><a target='_self' href='../quote/386'>quote</a>
+388,HKEX,Financials,-0.94,372271710208,388<BR>HKEX<BR>-0.94%<BR><a target='_self' href='../quote/388'>quote</a>
+390,CHINA RAILWAY,Properties & Construction,-1.5,156494839808,390<BR>CHINA RAILWAY<BR>-1.5%<BR><a target='_self' href='../quote/390'>quote</a>
+392,BEIJING ENT,Utilities,0.19,33399898112,392<BR>BEIJING ENT<BR>+0.19%<BR><a target='_self' href='../quote/392'>quote</a>
+405,YUEXIU REIT,Properties & Construction,-1.04,4817202688,405<BR>YUEXIU REIT<BR>-1.04%<BR><a target='_self' href='../quote/405'>quote</a>
+410,SOHO CHINA,Properties & Construction,-1.47,3483678208,410<BR>SOHO CHINA<BR>-1.47%<BR><a target='_self' href='../quote/410'>quote</a>
+425,MINTH GROUP,Consumer Discretionary,-1.08,16874514432,425<BR>MINTH GROUP<BR>-1.08%<BR><a target='_self' href='../quote/425'>quote</a>
+440,DAH SING,Financials,2.52,9107888128,440<BR>DAH SING<BR>+2.52%<BR><a target='_self' href='../quote/440'>quote</a>
+460,SIHUAN PHARM,Healthcare,1.54,6144600576,460<BR>SIHUAN PHARM<BR>+1.54%<BR><a target='_self' href='../quote/460'>quote</a>
+467,UNITEDENERGY GP,Energy,0.0,9112246272,467<BR>UNITEDENERGY GP<BR>+0.0%<BR><a target='_self' href='../quote/467'>quote</a>
+489,DONGFENG GROUP,Industrials,-7.02,30617110528,489<BR>DONGFENG GROUP<BR>-7.02%<BR><a target='_self' href='../quote/489'>quote</a>
+493,GOME RETAIL,Consumer Discretionary,0.0,909930880,493<BR>GOME RETAIL<BR>+0.0%<BR><a target='_self' href='../quote/493'>quote</a>
+512,GRAND PHARMA,Healthcare,0.63,16738652160,512<BR>GRAND PHARMA<BR>+0.63%<BR><a target='_self' href='../quote/512'>quote</a>
+520,XIABUXIABU,Consumer Discretionary,-4.9,1017500928,520<BR>XIABUXIABU<BR>-4.9%<BR><a target='_self' href='../quote/520'>quote</a>
+522,ASMPT,Information Technology,-3.09,30651088896,522<BR>ASMPT<BR>-3.09%<BR><a target='_self' href='../quote/522'>quote</a>
+535,GEMDALE PPT,Properties & Construction,-3.57,4485699072,535<BR>GEMDALE PPT<BR>-3.57%<BR><a target='_self' href='../quote/535'>quote</a>
+546,FUFENG GROUP,Consumer Staples,-0.55,13568172032,546<BR>FUFENG GROUP<BR>-0.55%<BR><a target='_self' href='../quote/546'>quote</a>
+551,YUE YUEN IND,Consumer Discretionary,-0.8,27822028800,551<BR>YUE YUEN IND<BR>-0.8%<BR><a target='_self' href='../quote/551'>quote</a>
+552,CHINACOMSERVICE,Information Technology,2.01,31651913728,552<BR>CHINACOMSERVICE<BR>+2.01%<BR><a target='_self' href='../quote/552'>quote</a>
+558,LK TECH,Industrials,-2.54,3670209280,558<BR>LK TECH<BR>-2.54%<BR><a target='_self' href='../quote/558'>quote</a>
+570,TRAD CHI MED,Healthcare,-0.86,11582340096,570<BR>TRAD CHI MED<BR>-0.86%<BR><a target='_self' href='../quote/570'>quote</a>
+576,ZHEJIANGEXPRESS,Industrials,0.36,33445404672,576<BR>ZHEJIANGEXPRESS<BR>+0.36%<BR><a target='_self' href='../quote/576'>quote</a>
+581,CHINA ORIENTAL,Materials,-0.88,4169278464,581<BR>CHINA ORIENTAL<BR>-0.88%<BR><a target='_self' href='../quote/581'>quote</a>
+586,CONCH VENTURE,Industrials,-1.64,11791622144,586<BR>CONCH VENTURE<BR>-1.64%<BR><a target='_self' href='../quote/586'>quote</a>
+587,CONCH ENVIRO,Industrials,0.0,1315274496,587<BR>CONCH ENVIRO<BR>+0.0%<BR><a target='_self' href='../quote/587'>quote</a>
+590,LUK FOOK HOLD,Consumer Discretionary,0.43,8301706752,590<BR>LUK FOOK HOLD<BR>+0.43%<BR><a target='_self' href='../quote/590'>quote</a>
+604,SHENZHEN INVEST,Properties & Construction,-2.27,7652959744,604<BR>SHENZHEN INVEST<BR>-2.27%<BR><a target='_self' href='../quote/604'>quote</a>
+631,SANY INT'L,Industrials,-0.88,14558922752,631<BR>SANY INT'L<BR>-0.88%<BR><a target='_self' href='../quote/631'>quote</a>
+636,KERRY LOG NET,Industrials,-0.29,12435119104,636<BR>KERRY LOG NET<BR>-0.29%<BR><a target='_self' href='../quote/636'>quote</a>
+639,SHOUGANG RES,Energy,0.78,13084049408,639<BR>SHOUGANG RES<BR>+0.78%<BR><a target='_self' href='../quote/639'>quote</a>
+650,PRODUCTIVE TECH,Energy,8.51,1509863168,650<BR>PRODUCTIVE TECH<BR>+8.51%<BR><a target='_self' href='../quote/650'>quote</a>
+656,FOSUN INTL,Conglomerates,-2.59,36983996416,656<BR>FOSUN INTL<BR>-2.59%<BR><a target='_self' href='../quote/656'>quote</a>
+658,C TRANSMISSION,Industrials,0.0,1389996544,658<BR>C TRANSMISSION<BR>+0.0%<BR><a target='_self' href='../quote/658'>quote</a>
+659,NWS HOLDINGS,Conglomerates,1.29,31340713984,659<BR>NWS HOLDINGS<BR>+1.29%<BR><a target='_self' href='../quote/659'>quote</a>
+667,CHINA EAST EDU,Consumer Discretionary,-3.62,5795741184,667<BR>CHINA EAST EDU<BR>-3.62%<BR><a target='_self' href='../quote/667'>quote</a>
+669,TECHTRONIC IND,Consumer Discretionary,-1.27,186161676288,669<BR>TECHTRONIC IND<BR>-1.27%<BR><a target='_self' href='../quote/669'>quote</a>
+670,CHINA EAST AIR,Consumer Discretionary,-0.38,87616331776,670<BR>CHINA EAST AIR<BR>-0.38%<BR><a target='_self' href='../quote/670'>quote</a>
+683,KERRY PPT,Properties & Construction,-0.38,22553356288,683<BR>KERRY PPT<BR>-0.38%<BR><a target='_self' href='../quote/683'>quote</a>
+688,CHINA OVERSEAS,Properties & Construction,-1.61,133746679808,688<BR>CHINA OVERSEAS<BR>-1.61%<BR><a target='_self' href='../quote/688'>quote</a>
+694,BEIJING AIRPORT,Consumer Discretionary,-1.74,12959079424,694<BR>BEIJING AIRPORT<BR>-1.74%<BR><a target='_self' href='../quote/694'>quote</a>
+696,TRAVELSKY TECH,Information Technology,-4.13,29905866752,696<BR>TRAVELSKY TECH<BR>-4.13%<BR><a target='_self' href='../quote/696'>quote</a>
+697,SHOUCHENG,Financials,1.96,7576961024,697<BR>SHOUCHENG<BR>+1.96%<BR><a target='_self' href='../quote/697'>quote</a>
+700,TENCENT,Information Technology,0.24,3822293352448,700<BR>TENCENT<BR>+0.24%<BR><a target='_self' href='../quote/700'>quote</a>
+710,BOE VARITRONIX,Consumer Discretionary,0.89,5290781696,710<BR>BOE VARITRONIX<BR>+0.89%<BR><a target='_self' href='../quote/710'>quote</a>
+728,CHINA TELECOM,Telecommunications,-0.2,657663000576,728<BR>CHINA TELECOM<BR>-0.2%<BR><a target='_self' href='../quote/728'>quote</a>
+743,ASIA CEMENT CH,Properties & Construction,14.01,3697765888,743<BR>ASIA CEMENT CH<BR>+14.01%<BR><a target='_self' href='../quote/743'>quote</a>
+751,SKYWORTH GROUP,Consumer Discretionary,0.32,7008975360,751<BR>SKYWORTH GROUP<BR>+0.32%<BR><a target='_self' href='../quote/751'>quote</a>
+753,AIR CHINA,Consumer Discretionary,-0.38,140974702592,753<BR>AIR CHINA<BR>-0.38%<BR><a target='_self' href='../quote/753'>quote</a>
+754,HOPSON DEV HOLD,Properties & Construction,-0.96,11756873728,754<BR>HOPSON DEV HOLD<BR>-0.96%<BR><a target='_self' href='../quote/754'>quote</a>
+762,CHINA UNICOM,Telecommunications,-0.68,224589332480,762<BR>CHINA UNICOM<BR>-0.68%<BR><a target='_self' href='../quote/762'>quote</a>
+763,ZTE,Information Technology,2.61,195219832832,763<BR>ZTE<BR>+2.61%<BR><a target='_self' href='../quote/763'>quote</a>
+772,CHINA LIT,Consumer Discretionary,-2.9,25544351744,772<BR>CHINA LIT<BR>-2.9%<BR><a target='_self' href='../quote/772'>quote</a>
+775,CKLIFE SCIENCES,Healthcare,-1.22,3892483584,775<BR>CKLIFE SCIENCES<BR>-1.22%<BR><a target='_self' href='../quote/775'>quote</a>
+777,NETDRAGON,Information Technology,1.38,5472009216,777<BR>NETDRAGON<BR>+1.38%<BR><a target='_self' href='../quote/777'>quote</a>
+778,FORTUNE REIT,Properties & Construction,0.0,8130440192,778<BR>FORTUNE REIT<BR>+0.0%<BR><a target='_self' href='../quote/778'>quote</a>
+780,TONGCHENGTRAVEL,Consumer Discretionary,-5.8,42315001856,780<BR>TONGCHENGTRAVEL<BR>-5.8%<BR><a target='_self' href='../quote/780'>quote</a>
+788,CHINA TOWER,Telecommunications,-1.75,197128962048,788<BR>CHINA TOWER<BR>-1.75%<BR><a target='_self' href='../quote/788'>quote</a>
+806,VALUE PARTNERS,Financials,-2.56,2776599296,806<BR>VALUE PARTNERS<BR>-2.56%<BR><a target='_self' href='../quote/806'>quote</a>
+817,CHINA JINMAO,Properties & Construction,-3.06,12830699520,817<BR>CHINA JINMAO<BR>-3.06%<BR><a target='_self' href='../quote/817'>quote</a>
+819,TIANNENG POWER,Industrials,-7.99,8952652800,819<BR>TIANNENG POWER<BR>-7.99%<BR><a target='_self' href='../quote/819'>quote</a>
+823,LINK REIT,Properties & Construction,0.0,85278883840,823<BR>LINK REIT<BR>+0.0%<BR><a target='_self' href='../quote/823'>quote</a>
+826,TIANGONG INT'L,Materials,-2.11,5068499968,826<BR>TIANGONG INT'L<BR>-2.11%<BR><a target='_self' href='../quote/826'>quote</a>
+836,CHINA RES POWER,Utilities,-0.43,96293314560,836<BR>CHINA RES POWER<BR>-0.43%<BR><a target='_self' href='../quote/836'>quote</a>
+839,CHINA EDU GROUP,Consumer Discretionary,-0.58,9362575360,839<BR>CHINA EDU GROUP<BR>-0.58%<BR><a target='_self' href='../quote/839'>quote</a>
+853,MICROPORT,Healthcare,-1.74,11409408000,853<BR>MICROPORT<BR>-1.74%<BR><a target='_self' href='../quote/853'>quote</a>
+855,CHINA WATER,Utilities,0.79,8339213312,855<BR>CHINA WATER<BR>+0.79%<BR><a target='_self' href='../quote/855'>quote</a>
+856,VSTECS,Information Technology,0.76,7531847168,856<BR>VSTECS<BR>+0.76%<BR><a target='_self' href='../quote/856'>quote</a>
+857,PETROCHINA,Energy,0.33,1669872746496,857<BR>PETROCHINA<BR>+0.33%<BR><a target='_self' href='../quote/857'>quote</a>
+861,DC HOLDINGS,Information Technology,-0.3,5640065536,861<BR>DC HOLDINGS<BR>-0.3%<BR><a target='_self' href='../quote/861'>quote</a>
+867,CMS,Healthcare,0.27,18220636160,867<BR>CMS<BR>+0.27%<BR><a target='_self' href='../quote/867'>quote</a>
+868,XINYI GLASS,Industrials,-1.13,34378227712,868<BR>XINYI GLASS<BR>-1.13%<BR><a target='_self' href='../quote/868'>quote</a>
+873,SHIMAO SERVICES,Properties & Construction,-1.09,2246034688,873<BR>SHIMAO SERVICES<BR>-1.09%<BR><a target='_self' href='../quote/873'>quote</a>
+880,SJM HOLDINGS,Consumer Discretionary,-1.12,18748780544,880<BR>SJM HOLDINGS<BR>-1.12%<BR><a target='_self' href='../quote/880'>quote</a>
+881,ZHONGSHENG HLDG,Consumer Discretionary,-1.94,33516578816,881<BR>ZHONGSHENG HLDG<BR>-1.94%<BR><a target='_self' href='../quote/881'>quote</a>
+883,CNOOC,Energy,0.75,931818897408,883<BR>CNOOC<BR>+0.75%<BR><a target='_self' href='../quote/883'>quote</a>
+902,HUANENG POWER,Utilities,-0.23,100242923520,902<BR>HUANENG POWER<BR>-0.23%<BR><a target='_self' href='../quote/902'>quote</a>
+909,MING YUAN CLOUD,Information Technology,-1.42,5369764864,909<BR>MING YUAN CLOUD<BR>-1.42%<BR><a target='_self' href='../quote/909'>quote</a>
+914,CONCH CEMENT,Properties & Construction,-1.72,125820772352,914<BR>CONCH CEMENT<BR>-1.72%<BR><a target='_self' href='../quote/914'>quote</a>
+916,CHINA LONGYUAN,Utilities,-1.98,106451443712,916<BR>CHINA LONGYUAN<BR>-1.98%<BR><a target='_self' href='../quote/916'>quote</a>
+933,VIVA GOODS,Consumer Discretionary,1.72,5737024000,933<BR>VIVA GOODS<BR>+1.72%<BR><a target='_self' href='../quote/933'>quote</a>
+934,SINOPEC KANTONS,Energy,-0.42,11883844608,934<BR>SINOPEC KANTONS<BR>-0.42%<BR><a target='_self' href='../quote/934'>quote</a>
+939,CCB,Financials,-0.15,1639957659648,939<BR>CCB<BR>-0.15%<BR><a target='_self' href='../quote/939'>quote</a>
+941,CHINA MOBILE,Telecommunications,0.26,1680705191936,941<BR>CHINA MOBILE<BR>+0.26%<BR><a target='_self' href='../quote/941'>quote</a>
+956,CHINA SUNTIEN,Utilities,0.0,25774288896,956<BR>CHINA SUNTIEN<BR>+0.0%<BR><a target='_self' href='../quote/956'>quote</a>
+960,LONGFOR GROUP,Properties & Construction,-1.49,66612809728,960<BR>LONGFOR GROUP<BR>-1.49%<BR><a target='_self' href='../quote/960'>quote</a>
+966,CHINA TAIPING,Financials,0.69,42193797120,966<BR>CHINA TAIPING<BR>+0.69%<BR><a target='_self' href='../quote/966'>quote</a>
+968,XINYI SOLAR,Industrials,-1.29,27870840832,968<BR>XINYI SOLAR<BR>-1.29%<BR><a target='_self' href='../quote/968'>quote</a>
+981,SMIC,Information Technology,5.87,412741271552,981<BR>SMIC<BR>+5.87%<BR><a target='_self' href='../quote/981'>quote</a>
+990,THEME INT'L,Materials,0.0,5253806592,990<BR>THEME INT'L<BR>+0.0%<BR><a target='_self' href='../quote/990'>quote</a>
+991,DATANG POWER,Utilities,0.0,47453040640,991<BR>DATANG POWER<BR>+0.0%<BR><a target='_self' href='../quote/991'>quote</a>
+992,LENOVO GROUP,Information Technology,-2.84,127024128000,992<BR>LENOVO GROUP<BR>-2.84%<BR><a target='_self' href='../quote/992'>quote</a>
+998,CITIC BANK,Financials,0.56,371039567872,998<BR>CITIC BANK<BR>+0.56%<BR><a target='_self' href='../quote/998'>quote</a>
+1024,KUAISHOU-W,Information Technology,-1.3,178815434752,1024<BR>KUAISHOU-W<BR>-1.3%<BR><a target='_self' href='../quote/1024'>quote</a>
+1030,SEAZEN,Properties & Construction,-2.23,12365044736,1030<BR>SEAZEN<BR>-2.23%<BR><a target='_self' href='../quote/1030'>quote</a>
+1038,CKI HOLDINGS,Utilities,0.26,143869739008,1038<BR>CKI HOLDINGS<BR>+0.26%<BR><a target='_self' href='../quote/1038'>quote</a>
+1044,HENGAN INT'L,Consumer Staples,-0.67,25857169408,1044<BR>HENGAN INT'L<BR>-0.67%<BR><a target='_self' href='../quote/1044'>quote</a>
+1052,YUEXIUTRANSPORT,Industrials,2.34,6592250368,1052<BR>YUEXIUTRANSPORT<BR>+2.34%<BR><a target='_self' href='../quote/1052'>quote</a>
+1055,CHINA SOUTH AIR,Consumer Discretionary,-1.9,112836083712,1055<BR>CHINA SOUTH AIR<BR>-1.9%<BR><a target='_self' href='../quote/1055'>quote</a>
+1060,ALI PICTURES,Consumer Discretionary,-1.02,14183438336,1060<BR>ALI PICTURES<BR>-1.02%<BR><a target='_self' href='../quote/1060'>quote</a>
+1066,WEIGAO GROUP,Healthcare,0.0,20465774592,1066<BR>WEIGAO GROUP<BR>+0.0%<BR><a target='_self' href='../quote/1066'>quote</a>
+1070,TCL ELECTRONICS,Consumer Discretionary,2.09,16007459840,1070<BR>TCL ELECTRONICS<BR>+2.09%<BR><a target='_self' href='../quote/1070'>quote</a>
+1083,TG SMART ENERGY,Utilities,0.0,10892534784,1083<BR>TG SMART ENERGY<BR>+0.0%<BR><a target='_self' href='../quote/1083'>quote</a>
+1088,CHINA SHENHUA,Energy,-0.91,845454376960,1088<BR>CHINA SHENHUA<BR>-0.91%<BR><a target='_self' href='../quote/1088'>quote</a>
+1093,CSPC PHARMA,Healthcare,-0.21,54801575936,1093<BR>CSPC PHARMA<BR>-0.21%<BR><a target='_self' href='../quote/1093'>quote</a>
+1099,SINOPHARM,Healthcare,-0.92,67562287104,1099<BR>SINOPHARM<BR>-0.92%<BR><a target='_self' href='../quote/1099'>quote</a>
+1109,CHINA RES LAND,Properties & Construction,-1.75,160446152704,1109<BR>CHINA RES LAND<BR>-1.75%<BR><a target='_self' href='../quote/1109'>quote</a>
+1112,H&H INTL HLDG,Consumer Staples,-1.77,5739037696,1112<BR>H&H INTL HLDG<BR>-1.77%<BR><a target='_self' href='../quote/1112'>quote</a>
+1113,CK ASSET,Properties & Construction,-0.94,110243069952,1113<BR>CK ASSET<BR>-0.94%<BR><a target='_self' href='../quote/1113'>quote</a>
+1114,BRILLIANCE CHI,Consumer Discretionary,-2.79,19323383808,1114<BR>BRILLIANCE CHI<BR>-2.79%<BR><a target='_self' href='../quote/1114'>quote</a>
+1117,CH MODERN D,Consumer Staples,2.27,7124093440,1117<BR>CH MODERN D<BR>+2.27%<BR><a target='_self' href='../quote/1117'>quote</a>
+1119,IDREAMSKY,Information Technology,-3.89,4167680512,1119<BR>IDREAMSKY<BR>-3.89%<BR><a target='_self' href='../quote/1119'>quote</a>
+1128,WYNN MACAU,Consumer Discretionary,-1.11,27906627584,1128<BR>WYNN MACAU<BR>-1.11%<BR><a target='_self' href='../quote/1128'>quote</a>
+1137,HK TECH VENTURE,Information Technology,-1.37,1135506304,1137<BR>HK TECH VENTURE<BR>-1.37%<BR><a target='_self' href='../quote/1137'>quote</a>
+1138,COSCO SHIP ENGY,Industrials,-2.5,51533848576,1138<BR>COSCO SHIP ENGY<BR>-2.5%<BR><a target='_self' href='../quote/1138'>quote</a>
+1157,ZOOMLION,Industrials,1.27,62926639104,1157<BR>ZOOMLION<BR>+1.27%<BR><a target='_self' href='../quote/1157'>quote</a>
+1164,CGN MINING,Materials,0.0,12465115136,1164<BR>CGN MINING<BR>+0.0%<BR><a target='_self' href='../quote/1164'>quote</a>
+1167,JACOBIO-B,Healthcare,0.78,1017579072,1167<BR>JACOBIO-B<BR>+0.78%<BR><a target='_self' href='../quote/1167'>quote</a>
+1171,YANKUANG ENERGY,Energy,1.72,126542962688,1171<BR>YANKUANG ENERGY<BR>+1.72%<BR><a target='_self' href='../quote/1171'>quote</a>
+1176,ZHUGUANG HOLD,Properties & Construction,0.0,831959168,1176<BR>ZHUGUANG HOLD<BR>+0.0%<BR><a target='_self' href='../quote/1176'>quote</a>
+1177,SINO BIOPHARM,Healthcare,-0.62,58621710336,1177<BR>SINO BIOPHARM<BR>-0.62%<BR><a target='_self' href='../quote/1177'>quote</a>
+1179,HWORLD-S,Consumer Discretionary,-2.91,78646829056,1179<BR>HWORLD-S<BR>-2.91%<BR><a target='_self' href='../quote/1179'>quote</a>
+1186,CHINA RAIL CONS,Properties & Construction,-1.04,124789227520,1186<BR>CHINA RAIL CONS<BR>-1.04%<BR><a target='_self' href='../quote/1186'>quote</a>
+1193,CHINA RES GAS,Utilities,1.01,68273418240,1193<BR>CHINA RES GAS<BR>+1.01%<BR><a target='_self' href='../quote/1193'>quote</a>
+1196,REALORD GROUP,Industrials,-0.97,10315483136,1196<BR>REALORD GROUP<BR>-0.97%<BR><a target='_self' href='../quote/1196'>quote</a>
+1199,COSCO SHIP PORT,Industrials,-0.87,17114279936,1199<BR>COSCO SHIP PORT<BR>-0.87%<BR><a target='_self' href='../quote/1199'>quote</a>
+1208,MMG,Materials,-1.57,30289752064,1208<BR>MMG<BR>-1.57%<BR><a target='_self' href='../quote/1208'>quote</a>
+1209,CHINA RES MIXC,Properties & Construction,-0.53,64594751488,1209<BR>CHINA RES MIXC<BR>-0.53%<BR><a target='_self' href='../quote/1209'>quote</a>
+1211,BYD COMPANY,Consumer Discretionary,-2.7,829825286144,1211<BR>BYD COMPANY<BR>-2.7%<BR><a target='_self' href='../quote/1211'>quote</a>
+1238,POWERLONG,Properties & Construction,-1.15,1780372096,1238<BR>POWERLONG<BR>-1.15%<BR><a target='_self' href='../quote/1238'>quote</a>
+1244,3D MEDICINES,Healthcare,0.0,744927680,1244<BR>3D MEDICINES<BR>+0.0%<BR><a target='_self' href='../quote/1244'>quote</a>
+1250,SDHS NEW ENERGY,Utilities,1.16,3931532288,1250<BR>SDHS NEW ENERGY<BR>+1.16%<BR><a target='_self' href='../quote/1250'>quote</a>
+1258,CHINFMINING,Materials,0.0,20095506432,1258<BR>CHINFMINING<BR>+0.0%<BR><a target='_self' href='../quote/1258'>quote</a>
+1268,MEIDONG AUTO,Consumer Discretionary,-2.3,2854049792,1268<BR>MEIDONG AUTO<BR>-2.3%<BR><a target='_self' href='../quote/1268'>quote</a>
+1288,ABC,Financials,0.23,1944039718912,1288<BR>ABC<BR>+0.23%<BR><a target='_self' href='../quote/1288'>quote</a>
+1299,AIA,Financials,-0.71,601814990848,1299<BR>AIA<BR>-0.71%<BR><a target='_self' href='../quote/1299'>quote</a>
+1302,LIFETECH SCI,Healthcare,-2.08,6203393536,1302<BR>LIFETECH SCI<BR>-2.08%<BR><a target='_self' href='../quote/1302'>quote</a>
+1308,SITC,Industrials,-0.73,54188408832,1308<BR>SITC<BR>-0.73%<BR><a target='_self' href='../quote/1308'>quote</a>
+1310,HKBN,Telecommunications,0.0,6702276096,1310<BR>HKBN<BR>+0.0%<BR><a target='_self' href='../quote/1310'>quote</a>
+1313,CR BLDG MAT TEC,Properties & Construction,-1.26,10963216384,1313<BR>CR BLDG MAT TEC<BR>-1.26%<BR><a target='_self' href='../quote/1313'>quote</a>
+1316,NEXTEER,Consumer Discretionary,-1.79,8282405376,1316<BR>NEXTEER<BR>-1.79%<BR><a target='_self' href='../quote/1316'>quote</a>
+1336,NCI,Financials,-0.21,136708194304,1336<BR>NCI<BR>-0.21%<BR><a target='_self' href='../quote/1336'>quote</a>
+1339,PICC GROUP,Financials,0.53,324533878784,1339<BR>PICC GROUP<BR>+0.53%<BR><a target='_self' href='../quote/1339'>quote</a>
+1347,HUA HONG SEMI,Information Technology,3.14,52511993856,1347<BR>HUA HONG SEMI<BR>+3.14%<BR><a target='_self' href='../quote/1347'>quote</a>
+1357,MEITU,Information Technology,0.66,13894213632,1357<BR>MEITU<BR>+0.66%<BR><a target='_self' href='../quote/1357'>quote</a>
+1359,CHINA CINDA,Financials,-2.38,46560690176,1359<BR>CHINA CINDA<BR>-2.38%<BR><a target='_self' href='../quote/1359'>quote</a>
+1361,361 DEGREES,Consumer Discretionary,0.0,8725609472,1361<BR>361 DEGREES<BR>+0.0%<BR><a target='_self' href='../quote/1361'>quote</a>
+1368,XTEP INT'L,Consumer Discretionary,-0.88,14561934336,1368<BR>XTEP INT'L<BR>-0.88%<BR><a target='_self' href='../quote/1368'>quote</a>
+1378,CHINAHONGQIAO,Materials,0.17,108968706048,1378<BR>CHINAHONGQIAO<BR>+0.17%<BR><a target='_self' href='../quote/1378'>quote</a>
+1385,SHANGHAI FUDAN,Information Technology,1.28,28696379392,1385<BR>SHANGHAI FUDAN<BR>+1.28%<BR><a target='_self' href='../quote/1385'>quote</a>
+1398,ICBC,Financials,0.19,2438141050880,1398<BR>ICBC<BR>+0.19%<BR><a target='_self' href='../quote/1398'>quote</a>
+1405,DPC DASH,Consumer Discretionary,-1.39,10194433024,1405<BR>DPC DASH<BR>-1.39%<BR><a target='_self' href='../quote/1405'>quote</a>
+1415,COWELL,Industrials,-1.6,23812456448,1415<BR>COWELL<BR>-1.6%<BR><a target='_self' href='../quote/1415'>quote</a>
+1448,FU SHOU YUAN,Consumer Discretionary,-0.26,8834423808,1448<BR>FU SHOU YUAN<BR>-0.26%<BR><a target='_self' href='../quote/1448'>quote</a>
+1458,ZHOU HEI YA,Consumer Staples,-1.16,3691992576,1458<BR>ZHOU HEI YA<BR>-1.16%<BR><a target='_self' href='../quote/1458'>quote</a>
+1468,KINGKEY FIN INT,Conglomerates,1.43,775852416,1468<BR>KINGKEY FIN INT<BR>+1.43%<BR><a target='_self' href='../quote/1468'>quote</a>
+1475,NISSIN FOODS,Consumer Staples,0.0,6001102848,1475<BR>NISSIN FOODS<BR>+0.0%<BR><a target='_self' href='../quote/1475'>quote</a>
+1477,OCUMENSION-B,Healthcare,0.45,3571884544,1477<BR>OCUMENSION-B<BR>+0.45%<BR><a target='_self' href='../quote/1477'>quote</a>
+1478,Q TECH,Industrials,2.31,7853500416,1478<BR>Q TECH<BR>+2.31%<BR><a target='_self' href='../quote/1478'>quote</a>
+1513,LIVZON PHARMA,Healthcare,0.0,32909316096,1513<BR>LIVZON PHARMA<BR>+0.0%<BR><a target='_self' href='../quote/1513'>quote</a>
+1515,CR MEDICAL,Healthcare,-1.73,5032550912,1515<BR>CR MEDICAL<BR>-1.73%<BR><a target='_self' href='../quote/1515'>quote</a>
+1516,SUNAC SERVICES,Properties & Construction,-2.94,5043785728,1516<BR>SUNAC SERVICES<BR>-2.94%<BR><a target='_self' href='../quote/1516'>quote</a>
+1521,FRONTAGE,Healthcare,0.58,3453795584,1521<BR>FRONTAGE<BR>+0.58%<BR><a target='_self' href='../quote/1521'>quote</a>
+1530,3SBIO,Healthcare,0.84,14211111936,1530<BR>3SBIO<BR>+0.84%<BR><a target='_self' href='../quote/1530'>quote</a>
+1548,GENSCRIPT BIO,Healthcare,0.4,21323546624,1548<BR>GENSCRIPT BIO<BR>+0.4%<BR><a target='_self' href='../quote/1548'>quote</a>
+1563,ALLI INTL ED LE,Consumer Discretionary,-3.23,355091072,1563<BR>ALLI INTL ED LE<BR>-3.23%<BR><a target='_self' href='../quote/1563'>quote</a>
+1579,YIHAI INTL,Consumer Staples,-0.8,14513174528,1579<BR>YIHAI INTL<BR>-0.8%<BR><a target='_self' href='../quote/1579'>quote</a>
+1585,YADEA,Consumer Discretionary,-3.28,39628066816,1585<BR>YADEA<BR>-3.28%<BR><a target='_self' href='../quote/1585'>quote</a>
+1600,TIAN LUN GAS,Utilities,-0.82,3527400192,1600<BR>TIAN LUN GAS<BR>-0.82%<BR><a target='_self' href='../quote/1600'>quote</a>
+1610,COFCO JOYCOME,Consumer Staples,-0.71,6414799872,1610<BR>COFCO JOYCOME<BR>-0.71%<BR><a target='_self' href='../quote/1610'>quote</a>
+1658,PSBC,Financials,0.89,565941960704,1658<BR>PSBC<BR>+0.89%<BR><a target='_self' href='../quote/1658'>quote</a>
+1668,CHINASOUTHCITY,Properties & Construction,2.7,2173960960,1668<BR>CHINASOUTHCITY<BR>+2.7%<BR><a target='_self' href='../quote/1668'>quote</a>
+1675,ASIAINFO TECH,Information Technology,1.61,5892415488,1675<BR>ASIAINFO TECH<BR>+1.61%<BR><a target='_self' href='../quote/1675'>quote</a>
+1686,SUNEVISION,Information Technology,-0.24,9683707904,1686<BR>SUNEVISION<BR>-0.24%<BR><a target='_self' href='../quote/1686'>quote</a>
+1691,JS GLOBAL LIFE,Consumer Discretionary,18.6,5316091904,1691<BR>JS GLOBAL LIFE<BR>+18.6%<BR><a target='_self' href='../quote/1691'>quote</a>
+1698,TME-SW,Consumer Discretionary,-0.99,152235212800,1698<BR>TME-SW<BR>-0.99%<BR><a target='_self' href='../quote/1698'>quote</a>
+1755,S-ENJOY SERVICE,Properties & Construction,1.0,2631419648,1755<BR>S-ENJOY SERVICE<BR>+1.0%<BR><a target='_self' href='../quote/1755'>quote</a>
+1765,HOPE EDU,Consumer Discretionary,-4.0,1184395648,1765<BR>HOPE EDU<BR>-4.0%<BR><a target='_self' href='../quote/1765'>quote</a>
+1766,CRRC,Industrials,-0.21,236762628096,1766<BR>CRRC<BR>-0.21%<BR><a target='_self' href='../quote/1766'>quote</a>
+1772,GANFENGLITHIUM,Materials,0.0,70005465088,1772<BR>GANFENGLITHIUM<BR>+0.0%<BR><a target='_self' href='../quote/1772'>quote</a>
+1776,GF SEC,Financials,-0.38,122218004480,1776<BR>GF SEC<BR>-0.38%<BR><a target='_self' href='../quote/1776'>quote</a>
+1787,SD GOLD,Materials,-0.94,99052273664,1787<BR>SD GOLD<BR>-0.94%<BR><a target='_self' href='../quote/1787'>quote</a>
+1788,GUOTAI JUNAN I,Financials,0.0,10872236032,1788<BR>GUOTAI JUNAN I<BR>+0.0%<BR><a target='_self' href='../quote/1788'>quote</a>
+1789,AK MEDICAL,Healthcare,-0.83,5322938368,1789<BR>AK MEDICAL<BR>-0.83%<BR><a target='_self' href='../quote/1789'>quote</a>
+1797,EAST BUY,Consumer Discretionary,2.79,18324633600,1797<BR>EAST BUY<BR>+2.79%<BR><a target='_self' href='../quote/1797'>quote</a>
+1798,DATANG RENEW,Utilities,-1.45,14911084544,1798<BR>DATANG RENEW<BR>-1.45%<BR><a target='_self' href='../quote/1798'>quote</a>
+1799,XINTE ENERGY,Industrials,-0.8,10582000640,1799<BR>XINTE ENERGY<BR>-0.8%<BR><a target='_self' href='../quote/1799'>quote</a>
+1800,CHINA COMM CONS,Properties & Construction,-1.98,156217163776,1800<BR>CHINA COMM CONS<BR>-1.98%<BR><a target='_self' href='../quote/1800'>quote</a>
+1801,INNOVENT BIO,Healthcare,0.84,58378493952,1801<BR>INNOVENT BIO<BR>+0.84%<BR><a target='_self' href='../quote/1801'>quote</a>
+1810,XIAOMI-W,Information Technology,0.88,865794719744,1810<BR>XIAOMI-W<BR>+0.88%<BR><a target='_self' href='../quote/1810'>quote</a>
+1811,CGN NEW ENERGY,Utilities,0.0,10252909568,1811<BR>CGN NEW ENERGY<BR>+0.0%<BR><a target='_self' href='../quote/1811'>quote</a>
+1813,KWG GROUP,Properties & Construction,-2.47,1350457600,1813<BR>KWG GROUP<BR>-2.47%<BR><a target='_self' href='../quote/1813'>quote</a>
+1816,CGN POWER,Utilities,-0.71,203221090304,1816<BR>CGN POWER<BR>-0.71%<BR><a target='_self' href='../quote/1816'>quote</a>
+1818,ZHAOJIN MINING,Materials,1.52,36269477888,1818<BR>ZHAOJIN MINING<BR>+1.52%<BR><a target='_self' href='../quote/1818'>quote</a>
+1821,ESR,Financials,0.17,50605527040,1821<BR>ESR<BR>+0.17%<BR><a target='_self' href='../quote/1821'>quote</a>
+1833,PA GOODDOCTOR,Healthcare,-4.48,7160384000,1833<BR>PA GOODDOCTOR<BR>-4.48%<BR><a target='_self' href='../quote/1833'>quote</a>
+1860,MOBVISTA,Consumer Discretionary,-2.99,12670127104,1860<BR>MOBVISTA<BR>-2.99%<BR><a target='_self' href='../quote/1860'>quote</a>
+1876,BUD APAC,Consumer Staples,-0.81,97062207488,1876<BR>BUD APAC<BR>-0.81%<BR><a target='_self' href='../quote/1876'>quote</a>
+1877,JUNSHI BIO,Healthcare,-1.01,25324451840,1877<BR>JUNSHI BIO<BR>-1.01%<BR><a target='_self' href='../quote/1877'>quote</a>
+1880,CTG DUTY-FREE,Consumer Discretionary,-2.56,145665703936,1880<BR>CTG DUTY-FREE<BR>-2.56%<BR><a target='_self' href='../quote/1880'>quote</a>
+1882,HAITIAN INT'L,Industrials,2.19,31999799296,1882<BR>HAITIAN INT'L<BR>+2.19%<BR><a target='_self' href='../quote/1882'>quote</a>
+1883,CITIC TELECOM,Telecommunications,0.43,8549056000,1883<BR>CITIC TELECOM<BR>+0.43%<BR><a target='_self' href='../quote/1883'>quote</a>
+1888,KB LAMINATES,Industrials,-2.77,21964800000,1888<BR>KB LAMINATES<BR>-2.77%<BR><a target='_self' href='../quote/1888'>quote</a>
+1890,CHINA KEPEI,Consumer Discretionary,-0.73,2739379968,1890<BR>CHINA KEPEI<BR>-0.73%<BR><a target='_self' href='../quote/1890'>quote</a>
+1896,MAOYAN ENT,Consumer Discretionary,-3.55,9060967424,1896<BR>MAOYAN ENT<BR>-3.55%<BR><a target='_self' href='../quote/1896'>quote</a>
+1898,CHINA COAL,Energy,0.34,152560812032,1898<BR>CHINA COAL<BR>+0.34%<BR><a target='_self' href='../quote/1898'>quote</a>
+1907,CHINA RISUN GP,Materials,-1.05,12251348992,1907<BR>CHINA RISUN GP<BR>-1.05%<BR><a target='_self' href='../quote/1907'>quote</a>
+1908,C&D INTL GROUP,Properties & Construction,-3.0,22737534976,1908<BR>C&D INTL GROUP<BR>-3.0%<BR><a target='_self' href='../quote/1908'>quote</a>
+1910,SAMSONITE,Consumer Discretionary,-1.62,29759350784,1910<BR>SAMSONITE<BR>-1.62%<BR><a target='_self' href='../quote/1910'>quote</a>
+1913,PRADA,Consumer Discretionary,0.16,160949780480,1913<BR>PRADA<BR>+0.16%<BR><a target='_self' href='../quote/1913'>quote</a>
+1918,SUNAC,Properties & Construction,-3.8,20873330688,1918<BR>SUNAC<BR>-3.8%<BR><a target='_self' href='../quote/1918'>quote</a>
+1919,COSCO SHIP HOLD,Industrials,0.94,247642439680,1919<BR>COSCO SHIP HOLD<BR>+0.94%<BR><a target='_self' href='../quote/1919'>quote</a>
+1928,SANDS CHINA LTD,Consumer Discretionary,-5.75,165914296320,1928<BR>SANDS CHINA LTD<BR>-5.75%<BR><a target='_self' href='../quote/1928'>quote</a>
+1929,CHOW TAI FOOK,Consumer Discretionary,-1.51,65120063488,1929<BR>CHOW TAI FOOK<BR>-1.51%<BR><a target='_self' href='../quote/1929'>quote</a>
+1942,MOG DIGITECH,Consumer Discretionary,-0.93,996629056,1942<BR>MOG DIGITECH<BR>-0.93%<BR><a target='_self' href='../quote/1942'>quote</a>
+1951,JXR,Healthcare,-1.43,7602846208,1951<BR>JXR<BR>-1.43%<BR><a target='_self' href='../quote/1951'>quote</a>
+1952,EVEREST MED-B,Healthcare,2.39,15196114944,1952<BR>EVEREST MED-B<BR>+2.39%<BR><a target='_self' href='../quote/1952'>quote</a>
+1958,BAIC MOTOR,Consumer Discretionary,0.43,18755895296,1958<BR>BAIC MOTOR<BR>+0.43%<BR><a target='_self' href='../quote/1958'>quote</a>
+1972,SWIREPROPERTIES,Properties & Construction,-1.38,91229765632,1972<BR>SWIREPROPERTIES<BR>-1.38%<BR><a target='_self' href='../quote/1972'>quote</a>
+1988,MINSHENG BANK,Financials,1.8,185728614400,1988<BR>MINSHENG BANK<BR>+1.8%<BR><a target='_self' href='../quote/1988'>quote</a>
+1992,FOSUN TOURISM,Consumer Discretionary,-0.13,9207598080,1992<BR>FOSUN TOURISM<BR>-0.13%<BR><a target='_self' href='../quote/1992'>quote</a>
+1997,WHARF REIC,Properties & Construction,-1.69,59995901952,1997<BR>WHARF REIC<BR>-1.69%<BR><a target='_self' href='../quote/1997'>quote</a>
+1999,MAN WAH HLDGS,Consumer Discretionary,0.85,18380724224,1999<BR>MAN WAH HLDGS<BR>+0.85%<BR><a target='_self' href='../quote/1999'>quote</a>
+2005,SSY GROUP,Healthcare,-1.41,10338684928,2005<BR>SSY GROUP<BR>-1.41%<BR><a target='_self' href='../quote/2005'>quote</a>
+2013,WEIMOB INC,Consumer Discretionary,2.09,10463194112,2013<BR>WEIMOB INC<BR>+2.09%<BR><a target='_self' href='../quote/2013'>quote</a>
+2015,LI AUTO-W,Consumer Discretionary,-1.64,209655578624,2015<BR>LI AUTO-W<BR>-1.64%<BR><a target='_self' href='../quote/2015'>quote</a>
+2018,AAC TECH,Industrials,-1.57,43884376064,2018<BR>AAC TECH<BR>-1.57%<BR><a target='_self' href='../quote/2018'>quote</a>
+2020,ANTA SPORTS,Consumer Discretionary,-2.44,218473316352,2020<BR>ANTA SPORTS<BR>-2.44%<BR><a target='_self' href='../quote/2020'>quote</a>
+2038,FIH,Information Technology,1.15,6938359808,2038<BR>FIH<BR>+1.15%<BR><a target='_self' href='../quote/2038'>quote</a>
+2039,CIMC,Industrials,0.18,36364623872,2039<BR>CIMC<BR>+0.18%<BR><a target='_self' href='../quote/2039'>quote</a>
+2057,ZTO EXPRESS-W,Industrials,0.07,122508763136,2057<BR>ZTO EXPRESS-W<BR>+0.07%<BR><a target='_self' href='../quote/2057'>quote</a>
+2096,SIMCERE PHARMA,Healthcare,0.59,17006430208,2096<BR>SIMCERE PHARMA<BR>+0.59%<BR><a target='_self' href='../quote/2096'>quote</a>
+2099,CHINAGOLDINTL,Materials,0.93,15024092160,2099<BR>CHINAGOLDINTL<BR>+0.93%<BR><a target='_self' href='../quote/2099'>quote</a>
+2105,LAEKNA-B,Healthcare,-5.74,3465755904,2105<BR>LAEKNA-B<BR>-5.74%<BR><a target='_self' href='../quote/2105'>quote</a>
+2121,AINNOVATION,Information Technology,-6.3,3341543168,2121<BR>AINNOVATION<BR>-6.3%<BR><a target='_self' href='../quote/2121'>quote</a>
+2128,CHINA LESSO,Properties & Construction,0.0,10624032768,2128<BR>CHINA LESSO<BR>+0.0%<BR><a target='_self' href='../quote/2128'>quote</a>
+2137,BRII-B,Healthcare,-1.0,723675200,2137<BR>BRII-B<BR>-1.0%<BR><a target='_self' href='../quote/2137'>quote</a>
+2138,EC HEALTHCARE,Healthcare,-1.45,799170048,2138<BR>EC HEALTHCARE<BR>-1.45%<BR><a target='_self' href='../quote/2138'>quote</a>
+2145,CHICMAX,Consumer Discretionary,0.85,14169689088,2145<BR>CHICMAX<BR>+0.85%<BR><a target='_self' href='../quote/2145'>quote</a>
+2150,NAYUKI,Consumer Discretionary,-3.55,2318813696,2150<BR>NAYUKI<BR>-3.55%<BR><a target='_self' href='../quote/2150'>quote</a>
+2157,LEPU BIO-B,Healthcare,-1.9,4430479872,2157<BR>LEPU BIO-B<BR>-1.9%<BR><a target='_self' href='../quote/2157'>quote</a>
+2158,YIDU TECH,Healthcare,-2.43,5093004800,2158<BR>YIDU TECH<BR>-2.43%<BR><a target='_self' href='../quote/2158'>quote</a>
+2160,CARDIOFLOW-B,Healthcare,-1.45,1617434368,2160<BR>CARDIOFLOW-B<BR>-1.45%<BR><a target='_self' href='../quote/2160'>quote</a>
+2162,KEYMED BIO-B,Healthcare,1.18,8321579520,2162<BR>KEYMED BIO-B<BR>+1.18%<BR><a target='_self' href='../quote/2162'>quote</a>
+2171,CARSGEN-B,Healthcare,4.89,4830214656,2171<BR>CARSGEN-B<BR>+4.89%<BR><a target='_self' href='../quote/2171'>quote</a>
+2172,MICROPORT NEURO,Healthcare,-1.48,4999452672,2172<BR>MICROPORT NEURO<BR>-1.48%<BR><a target='_self' href='../quote/2172'>quote</a>
+2186,LUYE PHARMA,Healthcare,0.0,8275674112,2186<BR>LUYE PHARMA<BR>+0.0%<BR><a target='_self' href='../quote/2186'>quote</a>
+2192,MEDLIVE,Healthcare,-1.24,6998727168,2192<BR>MEDLIVE<BR>-1.24%<BR><a target='_self' href='../quote/2192'>quote</a>
+2196,FOSUN PHARMA,Healthcare,-0.28,65113227264,2196<BR>FOSUN PHARMA<BR>-0.28%<BR><a target='_self' href='../quote/2196'>quote</a>
+2202,CHINA VANKE,Properties & Construction,-6.08,84597972992,2202<BR>CHINA VANKE<BR>-6.08%<BR><a target='_self' href='../quote/2202'>quote</a>
+2208,GOLDWIND,Industrials,-0.6,43024187392,2208<BR>GOLDWIND<BR>-0.6%<BR><a target='_self' href='../quote/2208'>quote</a>
+2233,WESTCHINACEMENT,Properties & Construction,1.83,9122424832,2233<BR>WESTCHINACEMENT<BR>+1.83%<BR><a target='_self' href='../quote/2233'>quote</a>
+2238,GAC GROUP,Consumer Discretionary,-0.87,96298647552,2238<BR>GAC GROUP<BR>-0.87%<BR><a target='_self' href='../quote/2238'>quote</a>
+2252,MEDBOT-B,Healthcare,-3.83,10102148096,2252<BR>MEDBOT-B<BR>-3.83%<BR><a target='_self' href='../quote/2252'>quote</a>
+2255,HAICHANG HLDG,Consumer Discretionary,0.0,4706119680,2255<BR>HAICHANG HLDG<BR>+0.0%<BR><a target='_self' href='../quote/2255'>quote</a>
+2257,SIRNAOMICS-B,Healthcare,0.57,370417632,2257<BR>SIRNAOMICS-B<BR>+0.57%<BR><a target='_self' href='../quote/2257'>quote</a>
+2269,WUXI BIO,Healthcare,0.92,71823851520,2269<BR>WUXI BIO<BR>+0.92%<BR><a target='_self' href='../quote/2269'>quote</a>
+2273,GUSHENGTANG,Healthcare,2.08,7647552000,2273<BR>GUSHENGTANG<BR>+2.08%<BR><a target='_self' href='../quote/2273'>quote</a>
+2279,YONGHE MEDICAL,Healthcare,-2.33,420204960,2279<BR>YONGHE MEDICAL<BR>-2.33%<BR><a target='_self' href='../quote/2279'>quote</a>
+2282,MGM CHINA,Consumer Discretionary,-3.95,36046815232,2282<BR>MGM CHINA<BR>-3.95%<BR><a target='_self' href='../quote/2282'>quote</a>
+2285,CHERVON,Consumer Discretionary,0.57,8974108672,2285<BR>CHERVON<BR>+0.57%<BR><a target='_self' href='../quote/2285'>quote</a>
+2291,SCIENTECH,Healthcare,-0.22,6186020352,2291<BR>SCIENTECH<BR>-0.22%<BR><a target='_self' href='../quote/2291'>quote</a>
+2313,SHENZHOU INTL,Consumer Discretionary,-3.44,90719322112,2313<BR>SHENZHOU INTL<BR>-3.44%<BR><a target='_self' href='../quote/2313'>quote</a>
+2314,LEE & MAN PAPER,Materials,0.42,10308000768,2314<BR>LEE & MAN PAPER<BR>+0.42%<BR><a target='_self' href='../quote/2314'>quote</a>
+2318,PING AN,Financials,-0.54,950199386112,2318<BR>PING AN<BR>-0.54%<BR><a target='_self' href='../quote/2318'>quote</a>
+2319,MENGNIU DAIRY,Consumer Staples,-1.38,67125207040,2319<BR>MENGNIU DAIRY<BR>-1.38%<BR><a target='_self' href='../quote/2319'>quote</a>
+2328,PICC P&C,Financials,-0.49,270472445952,2328<BR>PICC P&C<BR>-0.49%<BR><a target='_self' href='../quote/2328'>quote</a>
+2331,LI NING,Consumer Discretionary,-2.66,41507389440,2331<BR>LI NING<BR>-2.66%<BR><a target='_self' href='../quote/2331'>quote</a>
+2333,GWMOTOR,Consumer Discretionary,-0.9,203736530944,2333<BR>GWMOTOR<BR>-0.9%<BR><a target='_self' href='../quote/2333'>quote</a>
+2338,WEICHAI POWER,Industrials,2.04,125774880768,2338<BR>WEICHAI POWER<BR>+2.04%<BR><a target='_self' href='../quote/2338'>quote</a>
+2343,PACIFIC BASIN,Industrials,0.61,8558877184,2343<BR>PACIFIC BASIN<BR>+0.61%<BR><a target='_self' href='../quote/2343'>quote</a>
+2356,DAHSING BANKING,Financials,2.18,11203827712,2356<BR>DAHSING BANKING<BR>+2.18%<BR><a target='_self' href='../quote/2356'>quote</a>
+2357,AVICHINA,Industrials,1.83,31014387712,2357<BR>AVICHINA<BR>+1.83%<BR><a target='_self' href='../quote/2357'>quote</a>
+2359,WUXI APPTEC,Healthcare,2.88,171484676096,2359<BR>WUXI APPTEC<BR>+2.88%<BR><a target='_self' href='../quote/2359'>quote</a>
+2362,JINCHUAN INTL,Materials,1.89,6626112512,2362<BR>JINCHUAN INTL<BR>+1.89%<BR><a target='_self' href='../quote/2362'>quote</a>
+2367,GIANT BIOGENE,Healthcare,-2.89,49626656768,2367<BR>GIANT BIOGENE<BR>-2.89%<BR><a target='_self' href='../quote/2367'>quote</a>
+2378,PRU,Financials,0.96,166793756672,2378<BR>PRU<BR>+0.96%<BR><a target='_self' href='../quote/2378'>quote</a>
+2380,CHINA POWER,Utilities,0.66,37976510464,2380<BR>CHINA POWER<BR>+0.66%<BR><a target='_self' href='../quote/2380'>quote</a>
+2382,SUNNY OPTICAL,Industrials,-0.71,76215173120,2382<BR>SUNNY OPTICAL<BR>-0.71%<BR><a target='_self' href='../quote/2382'>quote</a>
+2388,BOC HONG KONG,Financials,0.4,264848637952,2388<BR>BOC HONG KONG<BR>+0.4%<BR><a target='_self' href='../quote/2388'>quote</a>
+2390,ZHIHU-W,Consumer Discretionary,-0.21,2467587840,2390<BR>ZHIHU-W<BR>-0.21%<BR><a target='_self' href='../quote/2390'>quote</a>
+2400,XD INC,Information Technology,-3.89,11975671808,2400<BR>XD INC<BR>-3.89%<BR><a target='_self' href='../quote/2400'>quote</a>
+2407,GAUSH MEDITECH,Healthcare,-1.61,1446344576,2407<BR>GAUSH MEDITECH<BR>-1.61%<BR><a target='_self' href='../quote/2407'>quote</a>
+2411,PAGODA GP,Consumer Staples,1.52,2069442304,2411<BR>PAGODA GP<BR>+1.52%<BR><a target='_self' href='../quote/2411'>quote</a>
+2415,MEDSCI,Healthcare,0.0,460823264,2415<BR>MEDSCI<BR>+0.0%<BR><a target='_self' href='../quote/2415'>quote</a>
+2416,EDIANYUN,Information Technology,1.81,903972608,2416<BR>EDIANYUN<BR>+1.81%<BR><a target='_self' href='../quote/2416'>quote</a>
+2423,BEKE-W,Properties & Construction,-0.32,169801564160,2423<BR>BEKE-W<BR>-0.32%<BR><a target='_self' href='../quote/2423'>quote</a>
+2469,FENBI,Consumer Discretionary,-2.3,5682317824,2469<BR>FENBI<BR>-2.3%<BR><a target='_self' href='../quote/2469'>quote</a>
+2487,CUTIA-B,Healthcare,-1.39,1951488896,2487<BR>CUTIA-B<BR>-1.39%<BR><a target='_self' href='../quote/2487'>quote</a>
+2588,BOC AVIATION,Consumer Discretionary,-0.99,41536495616,2588<BR>BOC AVIATION<BR>-0.99%<BR><a target='_self' href='../quote/2588'>quote</a>
+2600,CHALCO,Materials,1.8,122072637440,2600<BR>CHALCO<BR>+1.8%<BR><a target='_self' href='../quote/2600'>quote</a>
+2601,CPIC,Financials,1.42,321451622400,2601<BR>CPIC<BR>+1.42%<BR><a target='_self' href='../quote/2601'>quote</a>
+2607,SH PHARMA,Healthcare,-1.09,73794306048,2607<BR>SH PHARMA<BR>-1.09%<BR><a target='_self' href='../quote/2607'>quote</a>
+2611,GTJA,Financials,0.0,167306674176,2611<BR>GTJA<BR>+0.0%<BR><a target='_self' href='../quote/2611'>quote</a>
+2616,CSTONE PHARMA-B,Healthcare,-0.44,2907729664,2616<BR>CSTONE PHARMA-B<BR>-0.44%<BR><a target='_self' href='../quote/2616'>quote</a>
+2618,JD LOGISTICS,Industrials,-1.07,85890850816,2618<BR>JD LOGISTICS<BR>-1.07%<BR><a target='_self' href='../quote/2618'>quote</a>
+2628,CHINA LIFE,Financials,-0.68,1044526333952,2628<BR>CHINA LIFE<BR>-0.68%<BR><a target='_self' href='../quote/2628'>quote</a>
+2638,HKELECTRIC-SS,Utilities,-0.19,46831865856,2638<BR>HKELECTRIC-SS<BR>-0.19%<BR><a target='_self' href='../quote/2638'>quote</a>
+2666,UNI MEDICAL,Financials,1.42,9438784512,2666<BR>UNI MEDICAL<BR>+1.42%<BR><a target='_self' href='../quote/2666'>quote</a>
+2669,CHINA OVS PPT,Properties & Construction,0.81,16419800064,2669<BR>CHINA OVS PPT<BR>+0.81%<BR><a target='_self' href='../quote/2669'>quote</a>
+2678,TEXHONG INTL GP,Consumer Discretionary,0.25,3626099968,2678<BR>TEXHONG INTL GP<BR>+0.25%<BR><a target='_self' href='../quote/2678'>quote</a>
+2688,ENN ENERGY,Utilities,0.63,62702608384,2688<BR>ENN ENERGY<BR>+0.63%<BR><a target='_self' href='../quote/2688'>quote</a>
+2689,ND PAPER,Materials,-0.92,15202792448,2689<BR>ND PAPER<BR>-0.92%<BR><a target='_self' href='../quote/2689'>quote</a>
+2727,SH ELECTRIC,Industrials,-2.45,115370680320,2727<BR>SH ELECTRIC<BR>-2.45%<BR><a target='_self' href='../quote/2727'>quote</a>
+2777,R&F PROPERTIES,Properties & Construction,-3.57,5065699328,2777<BR>R&F PROPERTIES<BR>-3.57%<BR><a target='_self' href='../quote/2777'>quote</a>
+2799,CHINA HUARONG,Financials,0.0,51357888512,2799<BR>CHINA HUARONG<BR>+0.0%<BR><a target='_self' href='../quote/2799'>quote</a>
+2858,YIXIN,Financials,4.65,5871662592,2858<BR>YIXIN<BR>+4.65%<BR><a target='_self' href='../quote/2858'>quote</a>
+2869,GREENTOWN SER,Properties & Construction,0.27,11795826688,2869<BR>GREENTOWN SER<BR>+0.27%<BR><a target='_self' href='../quote/2869'>quote</a>
+2883,CHINA OILFIELD,Energy,1.32,59951296512,2883<BR>CHINA OILFIELD<BR>+1.32%<BR><a target='_self' href='../quote/2883'>quote</a>
+2888,STANCHART,Financials,-0.94,231854440448,2888<BR>STANCHART<BR>-0.94%<BR><a target='_self' href='../quote/2888'>quote</a>
+2899,ZIJIN MINING,Materials,-0.14,420541169664,2899<BR>ZIJIN MINING<BR>-0.14%<BR><a target='_self' href='../quote/2899'>quote</a>
+3309,C-MER EYE,Healthcare,-0.51,2438475264,3309<BR>C-MER EYE<BR>-0.51%<BR><a target='_self' href='../quote/3309'>quote</a>
+3311,CHINA STATE CON,Properties & Construction,-2.09,61358215168,3311<BR>CHINA STATE CON<BR>-2.09%<BR><a target='_self' href='../quote/3311'>quote</a>
+3319,A-LIVING,Properties & Construction,-1.39,4032800000,3319<BR>A-LIVING<BR>-1.39%<BR><a target='_self' href='../quote/3319'>quote</a>
+3320,CHINARES PHARMA,Healthcare,-1.06,35182055424,3320<BR>CHINARES PHARMA<BR>-1.06%<BR><a target='_self' href='../quote/3320'>quote</a>
+3323,CNBM,Properties & Construction,-1.11,30112129024,3323<BR>CNBM<BR>-1.11%<BR><a target='_self' href='../quote/3323'>quote</a>
+3328,BANKCOMM,Financials,1.74,552796094464,3328<BR>BANKCOMM<BR>+1.74%<BR><a target='_self' href='../quote/3328'>quote</a>
+3339,LONKING,Industrials,1.35,6420150272,3339<BR>LONKING<BR>+1.35%<BR><a target='_self' href='../quote/3339'>quote</a>
+3347,TIGERMED,Healthcare,-0.48,47439609856,3347<BR>TIGERMED<BR>-0.48%<BR><a target='_self' href='../quote/3347'>quote</a>
+3360,FE HORIZON,Financials,-0.53,23618447360,3360<BR>FE HORIZON<BR>-0.53%<BR><a target='_self' href='../quote/3360'>quote</a>
+3377,SINO-OCEAN GP,Properties & Construction,-5.6,1797399552,3377<BR>SINO-OCEAN GP<BR>-5.6%<BR><a target='_self' href='../quote/3377'>quote</a>
+3380,LOGAN GROUP,Properties & Construction,-2.83,5680294912,3380<BR>LOGAN GROUP<BR>-2.83%<BR><a target='_self' href='../quote/3380'>quote</a>
+3383,AGILE GROUP,Properties & Construction,-3.9,3734076928,3383<BR>AGILE GROUP<BR>-3.9%<BR><a target='_self' href='../quote/3383'>quote</a>
+3396,LEGENDHOLDING,Information Technology,-2.94,19438897152,3396<BR>LEGENDHOLDING<BR>-2.94%<BR><a target='_self' href='../quote/3396'>quote</a>
+3606,FUYAO GLASS,Consumer Discretionary,-0.81,163669131264,3606<BR>FUYAO GLASS<BR>-0.81%<BR><a target='_self' href='../quote/3606'>quote</a>
+3613,TONGRENTANGCM,Healthcare,0.35,7140463104,3613<BR>TONGRENTANGCM<BR>+0.35%<BR><a target='_self' href='../quote/3613'>quote</a>
+3618,CQRC BANK,Financials,0.88,67648798720,3618<BR>CQRC BANK<BR>+0.88%<BR><a target='_self' href='../quote/3618'>quote</a>
+3633,ZHONGYU ENERGY,Utilities,0.22,12532049920,3633<BR>ZHONGYU ENERGY<BR>+0.22%<BR><a target='_self' href='../quote/3633'>quote</a>
+3650,KEEP,Consumer Discretionary,-0.69,2957414656,3650<BR>KEEP<BR>-0.69%<BR><a target='_self' href='../quote/3650'>quote</a>
+3668,YANCOAL AUS,Energy,-0.48,41131708416,3668<BR>YANCOAL AUS<BR>-0.48%<BR><a target='_self' href='../quote/3668'>quote</a>
+3669,YONGDA AUTO,Consumer Discretionary,0.41,4641823232,3669<BR>YONGDA AUTO<BR>+0.41%<BR><a target='_self' href='../quote/3669'>quote</a>
+3690,MEITUAN-W,Information Technology,-1.23,923231780864,3690<BR>MEITUAN-W<BR>-1.23%<BR><a target='_self' href='../quote/3690'>quote</a>
+3692,HANSOH PHARMA,Healthcare,-2.47,103019970560,3692<BR>HANSOH PHARMA<BR>-2.47%<BR><a target='_self' href='../quote/3692'>quote</a>
+3709,EEKA FASHION,Consumer Discretionary,0.81,6132275200,3709<BR>EEKA FASHION<BR>+0.81%<BR><a target='_self' href='../quote/3709'>quote</a>
+3738,VOBILE GROUP,Information Technology,7.08,7922753536,3738<BR>VOBILE GROUP<BR>+7.08%<BR><a target='_self' href='../quote/3738'>quote</a>
+3759,PHARMARON,Healthcare,2.04,46017007616,3759<BR>PHARMARON<BR>+2.04%<BR><a target='_self' href='../quote/3759'>quote</a>
+3800,GCL TECH,Industrials,-1.82,28550989824,3800<BR>GCL TECH<BR>-1.82%<BR><a target='_self' href='../quote/3800'>quote</a>
+3808,SINOTRUK,Industrials,2.43,64054968320,3808<BR>SINOTRUK<BR>+2.43%<BR><a target='_self' href='../quote/3808'>quote</a>
+3868,XINYI ENERGY,Utilities,1.3,6533787136,3868<BR>XINYI ENERGY<BR>+1.3%<BR><a target='_self' href='../quote/3868'>quote</a>
+3877,CSSC SHIPPING,Industrials,0.56,11137074176,3877<BR>CSSC SHIPPING<BR>+0.56%<BR><a target='_self' href='../quote/3877'>quote</a>
+3888,KINGSOFT,Information Technology,0.0,45640544256,3888<BR>KINGSOFT<BR>+0.0%<BR><a target='_self' href='../quote/3888'>quote</a>
+3896,KINGSOFT CLOUD,Information Technology,0.16,22726197248,3896<BR>KINGSOFT CLOUD<BR>+0.16%<BR><a target='_self' href='../quote/3896'>quote</a>
+3898,TIMES ELECTRIC,Industrials,3.08,61047152640,3898<BR>TIMES ELECTRIC<BR>+3.08%<BR><a target='_self' href='../quote/3898'>quote</a>
+3899,CIMC ENRIC,Energy,0.28,14332751872,3899<BR>CIMC ENRIC<BR>+0.28%<BR><a target='_self' href='../quote/3899'>quote</a>
+3900,GREENTOWN CHINA,Properties & Construction,-1.84,23011170304,3900<BR>GREENTOWN CHINA<BR>-1.84%<BR><a target='_self' href='../quote/3900'>quote</a>
+3908,CICC,Financials,-0.76,133332295680,3908<BR>CICC<BR>-0.76%<BR><a target='_self' href='../quote/3908'>quote</a>
+3918,NAGACORP,Consumer Discretionary,-1.37,12782441472,3918<BR>NAGACORP<BR>-1.37%<BR><a target='_self' href='../quote/3918'>quote</a>
+3933,UNITED LAB,Healthcare,0.65,22422151168,3933<BR>UNITED LAB<BR>+0.65%<BR><a target='_self' href='../quote/3933'>quote</a>
+3968,CM BANK,Financials,-0.5,1041749311488,3968<BR>CM BANK<BR>-0.5%<BR><a target='_self' href='../quote/3968'>quote</a>
+3969,CHINA CRSC,Information Technology,0.0,63571271680,3969<BR>CHINA CRSC<BR>+0.0%<BR><a target='_self' href='../quote/3969'>quote</a>
+3988,BANK OF CHINA,Financials,0.25,1562620067840,3988<BR>BANK OF CHINA<BR>+0.25%<BR><a target='_self' href='../quote/3988'>quote</a>
+3990,MIDEA REAL EST,Properties & Construction,-0.34,4234459648,3990<BR>MIDEA REAL EST<BR>-0.34%<BR><a target='_self' href='../quote/3990'>quote</a>
+3993,CMOC,Materials,-1.7,146535940096,3993<BR>CMOC<BR>-1.7%<BR><a target='_self' href='../quote/3993'>quote</a>
+3996,CH ENERGY ENG,Industrials,-0.97,89079758848,3996<BR>CH ENERGY ENG<BR>-0.97%<BR><a target='_self' href='../quote/3996'>quote</a>
+3998,BOSIDENG,Consumer Discretionary,-0.74,44324798464,3998<BR>BOSIDENG<BR>-0.74%<BR><a target='_self' href='../quote/3998'>quote</a>
+6030,CITIC SEC,Financials,-0.46,447167528960,6030<BR>CITIC SEC<BR>-0.46%<BR><a target='_self' href='../quote/6030'>quote</a>
+6049,POLY PPT SER,Properties & Construction,-1.86,16046656512,6049<BR>POLY PPT SER<BR>-1.86%<BR><a target='_self' href='../quote/6049'>quote</a>
+6055,CTIHK,Consumer Staples,0.21,16427400192,6055<BR>CTIHK<BR>+0.21%<BR><a target='_self' href='../quote/6055'>quote</a>
+6060,ZA ONLINE,Financials,-1.52,17167381504,6060<BR>ZA ONLINE<BR>-1.52%<BR><a target='_self' href='../quote/6060'>quote</a>
+6066,CSC,Financials,-0.5,77489430528,6066<BR>CSC<BR>-0.5%<BR><a target='_self' href='../quote/6066'>quote</a>
+6069,SY HOLDINGS,Financials,4.73,6986586624,6069<BR>SY HOLDINGS<BR>+4.73%<BR><a target='_self' href='../quote/6069'>quote</a>
+6078,HYGEIA HEALTH,Healthcare,-1.12,8797655040,6078<BR>HYGEIA HEALTH<BR>-1.12%<BR><a target='_self' href='../quote/6078'>quote</a>
+6088,FIT HON TENG,Information Technology,-0.26,26711392256,6088<BR>FIT HON TENG<BR>-0.26%<BR><a target='_self' href='../quote/6088'>quote</a>
+6098,CG SERVICES,Properties & Construction,-1.98,18186192896,6098<BR>CG SERVICES<BR>-1.98%<BR><a target='_self' href='../quote/6098'>quote</a>
+6099,CMSC,Financials,0.0,175045492736,6099<BR>CMSC<BR>+0.0%<BR><a target='_self' href='../quote/6099'>quote</a>
+6100,TONGDAO LIEPIN,Consumer Discretionary,1.26,1524592768,6100<BR>TONGDAO LIEPIN<BR>+1.26%<BR><a target='_self' href='../quote/6100'>quote</a>
+6110,TOPSPORTS,Consumer Discretionary,-1.04,17673476096,6110<BR>TOPSPORTS<BR>-1.04%<BR><a target='_self' href='../quote/6110'>quote</a>
+6160,BEIGENE,Healthcare,0.75,156525838336,6160<BR>BEIGENE<BR>+0.75%<BR><a target='_self' href='../quote/6160'>quote</a>
+6185,CANSINOBIO,Healthcare,4.82,11865418752,6185<BR>CANSINOBIO<BR>+4.82%<BR><a target='_self' href='../quote/6185'>quote</a>
+6186,CHINA FEIHE,Consumer Staples,0.0,48872472576,6186<BR>CHINA FEIHE<BR>+0.0%<BR><a target='_self' href='../quote/6186'>quote</a>
+6608,BAIRONG-W,Information Technology,0.56,4189816320,6608<BR>BAIRONG-W<BR>+0.56%<BR><a target='_self' href='../quote/6608'>quote</a>
+6610,FLOWING CLOUD,Information Technology,-3.03,577968000,6610<BR>FLOWING CLOUD<BR>-3.03%<BR><a target='_self' href='../quote/6610'>quote</a>
+6616,GLOBAL NEW MAT,Materials,0.56,4472320512,6616<BR>GLOBAL NEW MAT<BR>+0.56%<BR><a target='_self' href='../quote/6616'>quote</a>
+6618,JD HEALTH,Healthcare,-2.79,89240100864,6618<BR>JD HEALTH<BR>-2.79%<BR><a target='_self' href='../quote/6618'>quote</a>
+6639,ARRAIL GROUP,Healthcare,-2.1,1578186368,6639<BR>ARRAIL GROUP<BR>-2.1%<BR><a target='_self' href='../quote/6639'>quote</a>
+6655,HUAXIN CEMENT,Properties & Construction,-0.88,23173795840,6655<BR>HUAXIN CEMENT<BR>-0.88%<BR><a target='_self' href='../quote/6655'>quote</a>
+6660,AIM VACCINE,Healthcare,-0.16,7339023360,6660<BR>AIM VACCINE<BR>-0.16%<BR><a target='_self' href='../quote/6660'>quote</a>
+6690,HAIER SMARTHOME,Consumer Discretionary,-1.47,255234605056,6690<BR>HAIER SMARTHOME<BR>-1.47%<BR><a target='_self' href='../quote/6690'>quote</a>
+6698,STAR CM,Consumer Discretionary,-1.02,1546327424,6698<BR>STAR CM<BR>-1.02%<BR><a target='_self' href='../quote/6698'>quote</a>
+6699,ANGELALIGN,Healthcare,-1.53,9878452224,6699<BR>ANGELALIGN<BR>-1.53%<BR><a target='_self' href='../quote/6699'>quote</a>
+6808,SUNART RETAIL,Consumer Staples,-1.57,23944646656,6808<BR>SUNART RETAIL<BR>-1.57%<BR><a target='_self' href='../quote/6808'>quote</a>
+6818,CEB BANK,Financials,1.01,228603920384,6818<BR>CEB BANK<BR>+1.01%<BR><a target='_self' href='../quote/6818'>quote</a>
+6823,HKT-SS,Telecommunications,0.0,72340299776,6823<BR>HKT-SS<BR>+0.0%<BR><a target='_self' href='../quote/6823'>quote</a>
+6837,HAITONG SEC,Financials,-0.58,139195416576,6837<BR>HAITONG SEC<BR>-0.58%<BR><a target='_self' href='../quote/6837'>quote</a>
+6855,ASCENTAGE-B,Healthcare,2.36,14373302272,6855<BR>ASCENTAGE-B<BR>+2.36%<BR><a target='_self' href='../quote/6855'>quote</a>
+6862,HAIDILAO,Consumer Discretionary,-5.98,83607601152,6862<BR>HAIDILAO<BR>-5.98%<BR><a target='_self' href='../quote/6862'>quote</a>
+6865,FLAT GLASS,Industrials,-1.43,45521674240,6865<BR>FLAT GLASS<BR>-1.43%<BR><a target='_self' href='../quote/6865'>quote</a>
+6878,DIFFER GP AUTO,Properties & Construction,1.45,65759680,6878<BR>DIFFER GP AUTO<BR>+1.45%<BR><a target='_self' href='../quote/6878'>quote</a>
+6881,CGS,Financials,-0.55,147456212992,6881<BR>CGS<BR>-0.55%<BR><a target='_self' href='../quote/6881'>quote</a>
+6886,HTSC,Financials,-0.9,162576400384,6886<BR>HTSC<BR>-0.9%<BR><a target='_self' href='../quote/6886'>quote</a>
+6929,ORBUSNEICH,Healthcare,-1.27,3212093696,6929<BR>ORBUSNEICH<BR>-1.27%<BR><a target='_self' href='../quote/6929'>quote</a>
+6955,BOAN BIOTECH,Healthcare,-0.88,4801968640,6955<BR>BOAN BIOTECH<BR>-0.88%<BR><a target='_self' href='../quote/6955'>quote</a>
+6969,SMOORE INTL,Consumer Discretionary,15.99,80288178176,6969<BR>SMOORE INTL<BR>+15.99%<BR><a target='_self' href='../quote/6969'>quote</a>
+6979,ZJLD,Consumer Staples,-1.04,22500435968,6979<BR>ZJLD<BR>-1.04%<BR><a target='_self' href='../quote/6979'>quote</a>
+9618,JD-SW,Information Technology,-0.81,434348556288,9618<BR>JD-SW<BR>-0.81%<BR><a target='_self' href='../quote/9618'>quote</a>
+9626,BILIBILI-W,Information Technology,-2.17,72099061760,9626<BR>BILIBILI-W<BR>-2.17%<BR><a target='_self' href='../quote/9626'>quote</a>
+9633,NONGFU SPRING,Consumer Staples,-1.03,376757747712,9633<BR>NONGFU SPRING<BR>-1.03%<BR><a target='_self' href='../quote/9633'>quote</a>
+9636,JF WEALTH,Information Technology,3.58,11679698944,9636<BR>JF WEALTH<BR>+3.58%<BR><a target='_self' href='../quote/9636'>quote</a>
+9658,SUPER HI,Consumer Discretionary,-7.62,12120340480,9658<BR>SUPER HI<BR>-7.62%<BR><a target='_self' href='../quote/9658'>quote</a>
+9666,JINKE SERVICES,Properties & Construction,-2.48,4433112576,9666<BR>JINKE SERVICES<BR>-2.48%<BR><a target='_self' href='../quote/9666'>quote</a>
+9668,CBHB,Financials,2.3,15808180224,9668<BR>CBHB<BR>+2.3%<BR><a target='_self' href='../quote/9668'>quote</a>
+9669,BEISEN HOLDING,Information Technology,-1.17,2966715136,9669<BR>BEISEN HOLDING<BR>-1.17%<BR><a target='_self' href='../quote/9669'>quote</a>
+9688,ZAI LAB,Healthcare,0.98,22549958656,9688<BR>ZAI LAB<BR>+0.98%<BR><a target='_self' href='../quote/9688'>quote</a>
+9690,TUHU-W,Consumer Discretionary,-0.44,14525121536,9690<BR>TUHU-W<BR>-0.44%<BR><a target='_self' href='../quote/9690'>quote</a>
+9696,TIANQI LITHIUM,Materials,-0.61,39870222336,9696<BR>TIANQI LITHIUM<BR>-0.61%<BR><a target='_self' href='../quote/9696'>quote</a>
+9698,GDS-SW,Information Technology,7.04,33125332992,9698<BR>GDS-SW<BR>+7.04%<BR><a target='_self' href='../quote/9698'>quote</a>
+9857,LINMON MEDIA,Consumer Discretionary,0.69,1045331136,9857<BR>LINMON MEDIA<BR>+0.69%<BR><a target='_self' href='../quote/9857'>quote</a>
+9858,YOURAN DAIRY,Consumer Staples,4.61,6228368384,9858<BR>YOURAN DAIRY<BR>+4.61%<BR><a target='_self' href='../quote/9858'>quote</a>
+9860,ADICON HOLDINGS,Healthcare,5.98,4884250112,9860<BR>ADICON HOLDINGS<BR>+5.98%<BR><a target='_self' href='../quote/9860'>quote</a>
+9863,LEAPMOTOR,Consumer Discretionary,-1.77,44521099264,9863<BR>LEAPMOTOR<BR>-1.77%<BR><a target='_self' href='../quote/9863'>quote</a>
+9866,NIO-SW,Consumer Discretionary,-3.3,73478619136,9866<BR>NIO-SW<BR>-3.3%<BR><a target='_self' href='../quote/9866'>quote</a>
+9868,XPENG-W,Consumer Discretionary,-4.56,89313370112,9868<BR>XPENG-W<BR>-4.56%<BR><a target='_self' href='../quote/9868'>quote</a>
+9869,HELENS,Consumer Discretionary,-3.2,3051184384,9869<BR>HELENS<BR>-3.2%<BR><a target='_self' href='../quote/9869'>quote</a>
+9877,JENSCARE-B,Healthcare,1.59,1330762752,9877<BR>JENSCARE-B<BR>+1.59%<BR><a target='_self' href='../quote/9877'>quote</a>
+9878,HUITONGDA NET,Information Technology,-0.34,9856226304,9878<BR>HUITONGDA NET<BR>-0.34%<BR><a target='_self' href='../quote/9878'>quote</a>
+9885,YSB,Healthcare,-0.86,3882336768,9885<BR>YSB<BR>-0.86%<BR><a target='_self' href='../quote/9885'>quote</a>
+9886,DINGDANG HEALTH,Healthcare,-2.0,646540288,9886<BR>DINGDANG HEALTH<BR>-2.0%<BR><a target='_self' href='../quote/9886'>quote</a>
+9888,BIDU-SW,Information Technology,-1.65,234516398080,9888<BR>BIDU-SW<BR>-1.65%<BR><a target='_self' href='../quote/9888'>quote</a>
+9896,MNSO,Consumer Discretionary,2.77,60243734528,9896<BR>MNSO<BR>+2.77%<BR><a target='_self' href='../quote/9896'>quote</a>
+9898,WB-SW,Information Technology,0.87,18394613760,9898<BR>WB-SW<BR>+0.87%<BR><a target='_self' href='../quote/9898'>quote</a>
+9901,NEW ORIENTAL-S,Consumer Discretionary,0.62,79475089408,9901<BR>NEW ORIENTAL-S<BR>+0.62%<BR><a target='_self' href='../quote/9901'>quote</a>
+9922,JIUMAOJIU,Consumer Discretionary,-3.47,4668083712,9922<BR>JIUMAOJIU<BR>-3.47%<BR><a target='_self' href='../quote/9922'>quote</a>
+9923,YEAHKA,Information Technology,24.49,4891286528,9923<BR>YEAHKA<BR>+24.49%<BR><a target='_self' href='../quote/9923'>quote</a>
+9926,AKESO,Healthcare,-0.93,52821229568,9926<BR>AKESO<BR>-0.93%<BR><a target='_self' href='../quote/9926'>quote</a>
+9930,HORIZON CD,Industrials,-2.22,4220357120,9930<BR>HORIZON CD<BR>-2.22%<BR><a target='_self' href='../quote/9930'>quote</a>
+9939,KINTOR PHARMA-B,Healthcare,2.06,426690976,9939<BR>KINTOR PHARMA-B<BR>+2.06%<BR><a target='_self' href='../quote/9939'>quote</a>
+9955,CLOUDR,Healthcare,-0.83,698575296,9955<BR>CLOUDR<BR>-0.83%<BR><a target='_self' href='../quote/9955'>quote</a>
+9956,ANE,Industrials,-1.4,9025458176,9956<BR>ANE<BR>-1.4%<BR><a target='_self' href='../quote/9956'>quote</a>
+9959,LINKLOGIS-W,Information Technology,-6.35,3783516672,9959<BR>LINKLOGIS-W<BR>-6.35%<BR><a target='_self' href='../quote/9959'>quote</a>
+9961,TRIP.COM-S,Consumer Discretionary,-4.74,347041103872,9961<BR>TRIP.COM-S<BR>-4.74%<BR><a target='_self' href='../quote/9961'>quote</a>
+9966,ALPHAMAB-B,Healthcare,-0.55,3459729664,9966<BR>ALPHAMAB-B<BR>-0.55%<BR><a target='_self' href='../quote/9966'>quote</a>
+9969,INNOCARE,Healthcare,-0.33,12477658112,9969<BR>INNOCARE<BR>-0.33%<BR><a target='_self' href='../quote/9969'>quote</a>
+9979,GREENTOWN MGMT,Properties & Construction,-0.92,6333417984,9979<BR>GREENTOWN MGMT<BR>-0.92%<BR><a target='_self' href='../quote/9979'>quote</a>
+9985,WEILONG,Consumer Staples,-0.83,16787211264,9985<BR>WEILONG<BR>-0.83%<BR><a target='_self' href='../quote/9985'>quote</a>
+9987,YUM CHINA,Consumer Discretionary,-1.32,144210231296,9987<BR>YUM CHINA<BR>-1.32%<BR><a target='_self' href='../quote/9987'>quote</a>
+9988,BABA-SW,Information Technology,-0.67,1558371893248,9988<BR>BABA-SW<BR>-0.67%<BR><a target='_self' href='../quote/9988'>quote</a>
+9992,POP MART,Consumer Discretionary,-1.1,112804372480,9992<BR>POP MART<BR>-1.1%<BR><a target='_self' href='../quote/9992'>quote</a>
+9993,RADIANCE HLDGS,Properties & Construction,0.0,11731167232,9993<BR>RADIANCE HLDGS<BR>+0.0%<BR><a target='_self' href='../quote/9993'>quote</a>
+9995,REMEGEN,Healthcare,-0.68,14250266624,9995<BR>REMEGEN<BR>-0.68%<BR><a target='_self' href='../quote/9995'>quote</a>
+9996,PEIJIA-B,Healthcare,1.25,2693035520,9996<BR>PEIJIA-B<BR>+1.25%<BR><a target='_self' href='../quote/9996'>quote</a>
+9997,KANGJI MEDICAL,Healthcare,-1.4,7687968256,9997<BR>KANGJI MEDICAL<BR>-1.4%<BR><a target='_self' href='../quote/9997'>quote</a>
+9999,NTES-S,Information Technology,-1.06,452434755584,9999<BR>NTES-S<BR>-1.06%<BR><a target='_self' href='../quote/9999'>quote</a>
