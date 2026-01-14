@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80520b3b97af75fdd22f4cbc439e03a7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_80520b3b97af75fdd22f4cbc439e03a7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_80520b3b97af75fdd22f4cbc439e03a7 = L.map(
+                "map_80520b3b97af75fdd22f4cbc439e03a7",
+                {
+                    center: [22.3, 114.2],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ba00761c3d6e9112ca5f13eaae8de8e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1ba00761c3d6e9112ca5f13eaae8de8e.addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            var marker_fd4ded663f6239745c929128d93196d8 = L.marker(
+                [22.212024, 114.1973],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_fd4ded663f6239745c929128d93196d8.bindTooltip(
+                `<div>
+                     Cheshire Home, Chung Hom Kok
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_729d5ec60f2a27a43ef9f05bd2607aab = L.marker(
+                [22.26918, 114.23643],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_729d5ec60f2a27a43ef9f05bd2607aab.bindTooltip(
+                `<div>
+                     Pamela Youde Nethersole Eastern Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0d64e7d264209f1d321c5827e4e7f105 = L.marker(
+                [22.275909, 114.17529],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_0d64e7d264209f1d321c5827e4e7f105.bindTooltip(
+                `<div>
+                     Ruttonjee Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8790f1d0e447a0624c8af81a2b7f8c9b = L.marker(
+                [22.208059, 114.03151],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_8790f1d0e447a0624c8af81a2b7f8c9b.bindTooltip(
+                `<div>
+                     St. John Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f52b524bad7259084e7e645f61ba7159 = L.marker(
+                [22.275313, 114.17774],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_f52b524bad7259084e7e645f61ba7159.bindTooltip(
+                `<div>
+                     Tang Shiu Kin Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_99232d11635f1321dc84ba66842de42d = L.marker(
+                [22.274725, 114.19026],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_99232d11635f1321dc84ba66842de42d.bindTooltip(
+                `<div>
+                     Tung Wah Eastern Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e86f821bdd200bd849186637a616a6d = L.marker(
+                [22.250966, 114.17591],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_5e86f821bdd200bd849186637a616a6d.bindTooltip(
+                `<div>
+                     Wong Chuk Hang Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_483c5b40cc802bd0b9af4078e831afe6 = L.marker(
+                [22.251156, 114.17316],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_483c5b40cc802bd0b9af4078e831afe6.bindTooltip(
+                `<div>
+                     Grantham Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98fdcb7681e75d338bb788a2b72bc441 = L.marker(
+                [22.269795, 114.12399],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_98fdcb7681e75d338bb788a2b72bc441.bindTooltip(
+                `<div>
+                     MacLehose Medical Rehabilitation Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bcd654c1a6cae8a799991cfe1f9813f9 = L.marker(
+                [22.2704, 114.13117],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_bcd654c1a6cae8a799991cfe1f9813f9.bindTooltip(
+                `<div>
+                     Queen Mary Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_820b04aadfd94be6fb0bb835ebb7829a = L.marker(
+                [22.271574, 114.12424],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_820b04aadfd94be6fb0bb835ebb7829a.bindTooltip(
+                `<div>
+                     The Duchess of Kent Children's Hospital at Sandy Bay
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_23b6df573279a02724becfe698f96636 = L.marker(
+                [22.286146, 114.14457],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_23b6df573279a02724becfe698f96636.bindTooltip(
+                `<div>
+                     Tsan Yuk Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_32db606b9829f135b8483f0f6641c9cf = L.marker(
+                [22.271408, 114.12483],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_32db606b9829f135b8483f0f6641c9cf.bindTooltip(
+                `<div>
+                     Tung Wah Group of Hospitals Fung Yiu King Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4ca290bd142564839532213510f33fa0 = L.marker(
+                [22.284955, 114.14661],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_4ca290bd142564839532213510f33fa0.bindTooltip(
+                `<div>
+                     Tung Wah Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_feeb2ceb837b6e5b28c582f2b1eb1b9e = L.marker(
+                [22.33568, 114.18874],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_feeb2ceb837b6e5b28c582f2b1eb1b9e.bindTooltip(
+                `<div>
+                     Hong Kong Buddhist Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_89263cdfd834c6d9c7150bef674f1ffb = L.marker(
+                [22.315757, 114.20886],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_89263cdfd834c6d9c7150bef674f1ffb.bindTooltip(
+                `<div>
+                     Hong Kong Children's Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_543e578e16227f0f1c8403c35cbc95ab = L.marker(
+                [22.324927, 114.18462],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_543e578e16227f0f1c8403c35cbc95ab.bindTooltip(
+                `<div>
+                     Hong Kong Eye Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_674a18184fb14cc129c0670404b0d624 = L.marker(
+                [22.310794, 114.17443],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_674a18184fb14cc129c0670404b0d624.bindTooltip(
+                `<div>
+                     Hong Kong Red Cross Blood Transfusion Service
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_41fe460eb29023dc304cdc64ff51d808 = L.marker(
+                [22.323708, 114.17957],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_41fe460eb29023dc304cdc64ff51d808.bindTooltip(
+                `<div>
+                     Kowloon Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e1cfca09b61a85e9a3903c017f678f94 = L.marker(
+                [22.31429, 114.1721],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_e1cfca09b61a85e9a3903c017f678f94.bindTooltip(
+                `<div>
+                     Kwong Wah Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_141fc227c625af0d58ef4339d7b349cb = L.marker(
+                [22.345588, 114.19657],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_141fc227c625af0d58ef4339d7b349cb.bindTooltip(
+                `<div>
+                     Our Lady of Maryknoll Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab7cd0001d1f622189e398d97096c00d = L.marker(
+                [22.30886, 114.17519],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_ab7cd0001d1f622189e398d97096c00d.bindTooltip(
+                `<div>
+                     Queen Elizabeth Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc9da679b76d1196f551ad45d3d14974 = L.marker(
+                [22.346808, 114.19632],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_bc9da679b76d1196f551ad45d3d14974.bindTooltip(
+                `<div>
+                     Tung Wah Group of Hospitals Wong Tai Sin Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7002c3e7b543f7ac67d68310e05d2f49 = L.marker(
+                [22.313773, 114.25627],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_7002c3e7b543f7ac67d68310e05d2f49.bindTooltip(
+                `<div>
+                     Haven of Hope Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b39cd7f49809709d9c9bffa0f5736c4 = L.marker(
+                [22.317964, 114.27021],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_7b39cd7f49809709d9c9bffa0f5736c4.bindTooltip(
+                `<div>
+                     Tseung Kwan O Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f56bcdd9150bbb11264237c4ea173b63 = L.marker(
+                [22.322291, 114.2279],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_f56bcdd9150bbb11264237c4ea173b63.bindTooltip(
+                `<div>
+                     United Christian Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_47d8740cf2b486ff9dfb42a8bc96a0a3 = L.marker(
+                [22.340629, 114.15231],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_47d8740cf2b486ff9dfb42a8bc96a0a3.bindTooltip(
+                `<div>
+                     Caritas Medical Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_723dba103cbe0bd8b56c441f3e75986e = L.marker(
+                [22.342892, 114.13336],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_723dba103cbe0bd8b56c441f3e75986e.bindTooltip(
+                `<div>
+                     Kwai Chung Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_007174b05e489a43ee16c9b057e5a29b = L.marker(
+                [22.282571, 113.93914],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_007174b05e489a43ee16c9b057e5a29b.bindTooltip(
+                `<div>
+                     North Lantau Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff37b1ea8e271c07bd0159905b261449 = L.marker(
+                [22.340057, 114.1347],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_ff37b1ea8e271c07bd0159905b261449.bindTooltip(
+                `<div>
+                     Princess Margaret Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e584ec0da25e2993c4c4efd55ae2bae4 = L.marker(
+                [22.369548, 114.11956],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_e584ec0da25e2993c4c4efd55ae2bae4.bindTooltip(
+                `<div>
+                     Yan Chai Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_487c83188be62a0feb2fc7c1003ece81 = L.marker(
+                [22.458696, 114.17479],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_487c83188be62a0feb2fc7c1003ece81.bindTooltip(
+                `<div>
+                     Alice Ho Miu Ling Nethersole Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5dc314f4a9b24f599942d28922406577 = L.marker(
+                [22.398512, 114.2151],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_5dc314f4a9b24f599942d28922406577.bindTooltip(
+                `<div>
+                     Bradbury Hospice
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ad1278221006c23b0296f731ce5f1992 = L.marker(
+                [22.39918, 114.21653],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_ad1278221006c23b0296f731ce5f1992.bindTooltip(
+                `<div>
+                     Cheshire Home, Shatin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1b011c6d738eacb2bfe9b1a46e16c8d9 = L.marker(
+                [22.496832, 114.12456],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_1b011c6d738eacb2bfe9b1a46e16c8d9.bindTooltip(
+                `<div>
+                     North District Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb81f61b9355aa861a8f09bfca83ad68 = L.marker(
+                [22.379939, 114.20129],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_bb81f61b9355aa861a8f09bfca83ad68.bindTooltip(
+                `<div>
+                     Prince of Wales Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8b66988cfd3467f2ba4eb08ecc8bc793 = L.marker(
+                [22.398115, 114.21263],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_8b66988cfd3467f2ba4eb08ecc8bc793.bindTooltip(
+                `<div>
+                     Shatin Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_553434f382f4a17b9c226d8cb6c9c414 = L.marker(
+                [22.46143, 114.17464],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_553434f382f4a17b9c226d8cb6c9c414.bindTooltip(
+                `<div>
+                     Tai Po Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d30b4df6dd0822f86b97e5f31b122f5 = L.marker(
+                [22.410011, 113.97374],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_6d30b4df6dd0822f86b97e5f31b122f5.bindTooltip(
+                `<div>
+                     Castle Peak Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8bd510363ab5f24422657ed66412e0ad = L.marker(
+                [22.44523, 114.04159],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_8bd510363ab5f24422657ed66412e0ad.bindTooltip(
+                `<div>
+                     Pok Oi Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7062a9d8f290bf2fa76a76975de43c38 = L.marker(
+                [22.41005, 113.97487],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_7062a9d8f290bf2fa76a76975de43c38.bindTooltip(
+                `<div>
+                     Siu Lam Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_36dcd8ccf8534e6979760d1400d27929 = L.marker(
+                [22.458704, 113.99585],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_36dcd8ccf8534e6979760d1400d27929.bindTooltip(
+                `<div>
+                     Tin Shui Wai Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d738cf779eca8c195c642a3491fe95b9 = L.marker(
+                [22.40708, 113.97621],
+                {
+}
+            ).addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+    
+            marker_d738cf779eca8c195c642a3491fe95b9.bindTooltip(
+                `<div>
+                     Tuen Mun Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_1ba00761c3d6e9112ca5f13eaae8de8e.addTo(map_80520b3b97af75fdd22f4cbc439e03a7);
+        
+</script>
+</html>
